@@ -1,0 +1,23 @@
+Analysis class javato.activetesting.CTrigger-1
+Setting current invocation to incrementCounter to be collected at line 20
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class OpenNlpTest
+
+Setting current invocation to incrementCounter to be collected at line 20
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class OpenNlpTest
+
+
+
+1. MEMORY: 81604378635
+P: read at: opennlp/tools/cmdline/PerformanceMonitor.java#73 by (21)
+C: write at: opennlp/tools/cmdline/PerformanceMonitor.java#73 by (21)
+R: write at: opennlp/tools/cmdline/PerformanceMonitor.java#73 by (22)
+
+
+-------------------------------------------
+
+Total PCR pairs found: 2
+No of unique PCR pairs that cause atomicity violation: 1

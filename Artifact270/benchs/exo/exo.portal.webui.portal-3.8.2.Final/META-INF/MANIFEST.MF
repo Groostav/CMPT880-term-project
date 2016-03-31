@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ppalaga
+Build-Jdk: 1.7.0_55
+Specification-Title: GateIn Portal WebUI Portal
+Specification-Version: 3.8.2.Final
+Specification-Vendor: JBoss by Red Hat
+Implementation-Title: GateIn Portal WebUI Portal
+Implementation-Version: 3.8.2.Final
+Implementation-Vendor-Id: org.gatein.portal
+Implementation-Vendor: JBoss by Red Hat
+Build-Timestamp: Mon, 2 Jun 2014 23:39:52 +0200
+Implementation-URL: www.gatein.org/exo.portal.parent/exo.portal.webui/
+ exo.portal.webui.portal/
+Java-Vendor: Oracle Corporation
+Java-Version: 1.7.0_55
+Os-Arch: amd64
+Os-Name: Linux
+Os-Version: 3.13.9-100.fc19.x86_64
+Scm-Connection: scm:git:git://github.com/gatein/gatein-portal.git/exo.
+ portal.webui/exo.portal.webui.portal
+Scm-Revision: 155d61662f2d8905dcbc8bf6f4e1e47e7ff3f555
+Scm-Url: https://github.com/gatein/gatein-portal/exo.portal.webui/exo.
+ portal.webui.portal
+

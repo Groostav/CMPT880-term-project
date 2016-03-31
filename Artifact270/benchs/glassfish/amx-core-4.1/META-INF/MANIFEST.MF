@@ -1,0 +1,136 @@
+Manifest-Version: 1.0
+Export-Package: org.glassfish.admin.amx.util;uses:="org.glassfish.admi
+ n.amx.util.stringifier,org.glassfish.admin.amx.util.jmx,javax.managem
+ ent,org.glassfish.external.arc";version="4.1.0",org.glassfish.admin.a
+ mx.util.jmx;uses:="javax.management,javax.management.openmbean,org.gl
+ assfish.admin.amx.util,org.glassfish.admin.amx.util.stringifier,javax
+ .management.modelmbean,org.glassfish.admin.amx.util.jmx.stringifier,j
+ avax.management.relation,org.glassfish.external.arc";version="4.1.0",
+ org.glassfish.admin.amx.util.jmx.stringifier;uses:="org.glassfish.adm
+ in.amx.util.stringifier,javax.management,javax.management.openmbean,o
+ rg.glassfish.admin.amx.util,javax.management.monitor,javax.management
+ .modelmbean";version="4.1.0",org.glassfish.admin.amx.util.stringifier
+ ;uses:="org.glassfish.admin.amx.util,javax.management,org.glassfish.e
+ xternal.arc";version="4.1.0",org.glassfish.admin.amx.annotation;uses:
+ ="org.glassfish.external.arc";version="4.1.0",org.glassfish.admin.amx
+ .base;uses:="org.glassfish.external.arc,javax.management,org.glassfis
+ h.admin.amx.core,org.glassfish.admin.amx.annotation,org.glassfish.adm
+ in.amx.monitoring,org.glassfish.admin.amx.config,org.glassfish.admin.
+ amx.logging,org.glassfish.admin.amx.util.jmx,org.glassfish.external.a
+ mx,org.glassfish.admin.amx.util";version="4.1.0",org.glassfish.admin.
+ amx.core;uses:="org.glassfish.external.arc,javax.management,org.glass
+ fish.admin.amx.util,org.glassfish.admin.amx.util.jmx,org.glassfish.ad
+ min.amx.core.proxy,javax.management.openmbean,org.glassfish.admin.amx
+ .config,org.glassfish.admin.amx.base,org.glassfish.admin.amx.annotati
+ on";version="4.1.0",org.glassfish.admin.amx.config;uses:="org.glassfi
+ sh.external.arc,javax.management,org.glassfish.admin.amx.core,org.gla
+ ssfish.admin.amx.annotation";version="4.1.0",org.glassfish.admin.amx.
+ core.proxy;uses:="org.glassfish.admin.amx.util.jmx,org.glassfish.admi
+ n.amx.util,org.glassfish.admin.amx.base,org.glassfish.external.arc,ja
+ vax.management,org.glassfish.admin.amx.core,org.glassfish.admin.amx.a
+ nnotation,javax.management.relation,org.glassfish.admin.amx.config,or
+ g.glassfish.external.amx,javax.management.remote";version="4.1.0",org
+ .glassfish.admin.amx.monitoring;uses:="org.glassfish.admin.amx.base,o
+ rg.glassfish.admin.amx.core,org.glassfish.admin.amx.annotation,org.gl
+ assfish.external.arc";version="4.1.0",org.glassfish.admin.amx.logging
+ ;uses:="org.glassfish.external.arc,org.glassfish.admin.amx.annotation
+ ,org.glassfish.admin.amx.util,javax.management,org.glassfish.admin.am
+ x.base,javax.management.openmbean,org.glassfish.admin.amx.core";versi
+ on="4.1.0",org.glassfish.admin.amx.impl.mbean;uses:="org.glassfish.ad
+ min.amx.util,org.glassfish.admin.amx.impl.util,org.glassfish.admin.am
+ x.util.jmx.stringifier,javax.management,org.glassfish.admin.amx.core,
+ org.glassfish.admin.amx.util.stringifier,org.glassfish.admin.amx.util
+ .jmx,org.glassfish.admin.amx.core.proxy,org.glassfish.admin.amx.base,
+ com.sun.enterprise.universal,org.glassfish.server,com.sun.enterprise.
+ module.bootstrap,com.sun.enterprise.universal.io,com.sun.appserv.serv
+ er.util,org.glassfish.admin.amx.monitoring,org.glassfish.admin.amx.lo
+ gging,com.sun.enterprise.server.logging,org.glassfish.external.amx,or
+ g.glassfish.hk2.api,com.sun.enterprise.server.logging.logviewer.backe
+ nd,com.sun.common.util.logging,com.sun.enterprise.server.logging.diag
+ nostics,org.jvnet.hk2.config.types,com.sun.enterprise.config.serverbe
+ ans,com.sun.enterprise.security.auth.realm,com.sun.enterprise.securit
+ y.auth.login,org.glassfish.internal.api,com.sun.enterprise.security,o
+ rg.glassfish.grizzly.config.dom,com.sun.enterprise.v3.admin.commands,
+ org.glassfish.api.admin,com.sun.enterprise.v3.admin,javax.management.
+ remote,com.sun.enterprise.security.ssl,com.sun.enterprise.v3.common,c
+ om.sun.enterprise.module,org.glassfish.api,javax.management.openmbean
+ ,org.glassfish.external.arc";version="4.1.0",org.glassfish.admin.amx.
+ impl.util;uses:="org.glassfish.admin.amx.core.proxy,javax.management,
+ org.glassfish.admin.amx.core,com.sun.enterprise.config.serverbeans,or
+ g.glassfish.server,com.sun.enterprise.module,org.glassfish.api,javax.
+ inject,org.glassfish.internal.api,org.glassfish.internal.config,org.j
+ vnet.hk2.annotations,org.glassfish.hk2.api,org.glassfish.admin.amx.ut
+ il,org.glassfish.admin.amx.util.jmx,org.glassfish.admin.amx.base,java
+ x.management.modelmbean,org.glassfish.admin.amx.annotation,org.glassf
+ ish.external.arc";version="4.1.0",org.glassfish.admin.amx.impl.config
+ ;uses:="org.jvnet.hk2.config,org.glassfish.admin.amx.util,org.glassfi
+ sh.hk2.api,com.sun.enterprise.config.serverbeans,org.glassfish.admin.
+ amx.impl.util,org.glassfish.admin.amx.config,org.glassfish.admin.amx.
+ impl.mbean,javax.management,org.glassfish.admin.amx.core,org.glassfis
+ h.admin.amx.util.jmx,org.glassfish.external.arc,javax.management.mode
+ lmbean,org.glassfish.admin.mbeanserver,org.glassfish.external.amx,org
+ .glassfish.api.amx,org.jvnet.hk2.annotations,org.glassfish.admin.amx.
+ core.proxy,org.glassfish.admin.amx.base,javax.inject,javax.validation
+ .constraints,org.glassfish.api.admin.config,javax.management.openmbea
+ n,org.glassfish.admin.amx.util.stringifier,org.glassfish.quality";ver
+ sion="4.1.0"
+Class-Path: management-api.jar internal-api.jar hk2.jar hk2-utils.jar 
+ javax.inject.jar hk2-api.jar aopalliance-repackaged.jar config-types.
+ jar hk2-config.jar tiger-types.jar bean-validator.jar hk2-locator.jar
+  javax.inject.jar javassist.jar hk2-runlevel.jar class-model.jar asm-
+ all-repackaged.jar glassfish-api.jar scattered-archive-api.jar config
+ -api.jar common-util.jar nucleus-grizzly-all.jar grizzly-framework.ja
+ r grizzly-portunif.jar grizzly-http.jar grizzly-http-server.jar grizz
+ ly-config.jar glassfish-mbeanserver.jar core.jar jmxremote_optional-r
+ epackaged.jar kernel.jar security-services.jar admin-util.jar jackson
+ -jaxrs-base.jar jackson-core.jar jackson-databind.jar jackson-annotat
+ ions.jar deployment-common.jar asm-all.jar flashlight-framework.jar g
+ mbal.jar pfl-basic.jar pfl-tf.jar pfl-asm.jar pfl-dynamic.jar pfl-bas
+ ic-tools.jar pfl-tf-tools.jar glassfish.jar simple-glassfish-api.jar 
+ logging.jar api-exporter.jar security.jar ssl-impl.jar ldapbp-repacka
+ ged.jar logging-annotation-processor.jar
+Built-By: java_re
+Tool: Bnd-1.15.0
+Bundle-Name: AMX Core
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.7.0_25
+Bundle-Version: 4.1.0
+Bnd-LastModified: 1408616815045
+Bundle-ManifestVersion: 2
+Bundle-Description: Appserver Management Extensions (AMX) Core
+Bundle-License: http://glassfish.java.net/nonav/public/CDDL+GPL.html
+Import-Package: com.sun.appserv.server.util;version="[4.1,5)",com.sun.
+ common.util.logging;version="[4.1,5)",com.sun.enterprise.config.serve
+ rbeans;version="[4.1,5)",com.sun.enterprise.module;version="[2.3,3)",
+ com.sun.enterprise.module.bootstrap;version="[2.3,3)",com.sun.enterpr
+ ise.security;version="[4.1,5)",com.sun.enterprise.security.auth.login
+ ;version="[4.1,5)",com.sun.enterprise.security.auth.realm;version="[4
+ .1,5)",com.sun.enterprise.security.ssl;version="[4.1,5)",com.sun.ente
+ rprise.server.logging,com.sun.enterprise.server.logging.diagnostics,c
+ om.sun.enterprise.server.logging.logviewer.backend,com.sun.enterprise
+ .universal;version="[4.1,5)",com.sun.enterprise.universal.io;version=
+ "[4.1,5)",com.sun.enterprise.v3.admin;version="[4.1,5)",com.sun.enter
+ prise.v3.admin.commands;version="[4.1,5)",com.sun.enterprise.v3.commo
+ n;version="[4.1,5)",javax.inject;version="[1.0,2)",javax.management,j
+ avax.management.modelmbean,javax.management.monitor,javax.management.
+ openmbean,javax.management.relation,javax.management.remote,javax.val
+ idation.constraints;version="[1.1,2)",org.glassfish.admin.amx.base;ve
+ rsion="[4.1,5)",org.glassfish.admin.amx.core;version="[4.1,5)",org.gl
+ assfish.admin.amx.core.proxy;version="[4.1,5)",org.glassfish.admin.am
+ x.impl.util;version="[4.1,5)",org.glassfish.admin.amx.util;version="[
+ 4.1,5)",org.glassfish.admin.amx.util.jmx.stringifier;version="[4.1,5)
+ ",org.glassfish.admin.amx.util.stringifier;version="[4.1,5)",org.glas
+ sfish.admin.mbeanserver;version="[4.1,5)",org.glassfish.api;version="
+ [4.1,5)",org.glassfish.api.admin;version="[4.1,5)",org.glassfish.api.
+ admin.config;version="[4.1,5)",org.glassfish.api.amx;version="[4.1,5)
+ ",org.glassfish.api.event;version="[4.1,5)",org.glassfish.external.am
+ x;version="[3.2,4)",org.glassfish.external.arc;version="[3.2,4)",org.
+ glassfish.grizzly.config.dom;version="[4.1,5)",org.glassfish.hk2.api;
+ version="[2.3,3)",org.glassfish.internal.api;version="[4.1,5)",org.gl
+ assfish.internal.config;version="[4.1,5)",org.glassfish.quality;versi
+ on="[4.1,5)",org.glassfish.server;version="[4.1,5)",org.jvnet.hk2.ann
+ otations;version="[2.3,3)",org.jvnet.hk2.config;version="[2.3,3)",org
+ .jvnet.hk2.config.types;version="[2.3,3)"
+Bundle-SymbolicName: org.glassfish.main.common.amx-core
+Archiver-Version: Plexus Archiver
+

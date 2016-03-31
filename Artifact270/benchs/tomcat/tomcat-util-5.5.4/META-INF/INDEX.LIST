@@ -1,0 +1,25 @@
+JarIndex-Version: 1.0
+
+tomcat-util.jar
+org
+org/apache
+org/apache/tomcat
+org/apache/tomcat/util
+org/apache/tomcat/util/buf
+org/apache/tomcat/util/buf/res
+org/apache/tomcat/util/collections
+org/apache/tomcat/util/compat
+org/apache/tomcat/util/digester
+org/apache/tomcat/util/http
+org/apache/tomcat/util/http/mapper
+org/apache/tomcat/util/http/res
+org/apache/tomcat/util/log
+org/apache/tomcat/util/net
+org/apache/tomcat/util/net/jsse
+org/apache/tomcat/util/net/jsse/res
+org/apache/tomcat/util/net/puretls
+org/apache/tomcat/util/net/res
+org/apache/tomcat/util/res
+org/apache/tomcat/util/threads
+org/apache/tomcat/util/threads/res
+

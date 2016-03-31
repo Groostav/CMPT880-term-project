@@ -1,0 +1,6 @@
+ ANALYSIS SUMMARY: 
+
+ Sequential test synthesis time : 11050 msec
+ Total number of tests : 8
+ Detected atomicity violations 16
+

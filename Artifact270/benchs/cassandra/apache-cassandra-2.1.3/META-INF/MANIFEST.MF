@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.4
+Created-By: 1.7.0_72-b14 (Oracle Corporation)
+Implementation-Title: Cassandra
+Implementation-Version: 2.1.3
+Implementation-Vendor: Apache
+Premain-Class: org.apache.cassandra.infrastructure.continuations.CAgen
+ t
+Class-Path: apache-cassandra-clientutil-2.1.3.jar apache-cassandra-thr
+ ift-2.1.3.jar
+

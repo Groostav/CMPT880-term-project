@@ -1,0 +1,18 @@
+Analysis class javato.activetesting.CTrigger-1
+Setting current invocation to start to be collected at line 19
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class OpenNlpTest
+
+Setting current invocation to start to be collected at line 19
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class OpenNlpTest
+
+TestDriver Error
+
+
+-------------------------------------------
+
+Total PCR pairs found: 1
+No of unique PCR pairs that cause atomicity violation: 0

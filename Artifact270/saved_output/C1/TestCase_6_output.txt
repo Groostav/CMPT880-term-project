@@ -1,0 +1,71 @@
+Analysis class javato.activetesting.CTrigger-1
+Setting current invocation to equals to be collected at line 51
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class ColtTest
+
+Setting current invocation to clear to be collected at line 53
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class ColtTest
+
+
+
+1. MEMORY: 1387274436628
+P: read at: hep/aida/bin/DynamicBin1D.java#720 by (393)
+C: read at: hep/aida/bin/DynamicBin1D.java#819 by (393)
+R: write at: hep/aida/bin/StaticBin1D.java#126 by (394)
+
+
+2. MEMORY: 1387274436631
+P: read at: hep/aida/bin/DynamicBin1D.java#752 by (393)
+C: read at: hep/aida/bin/DynamicBin1D.java#820 by (393)
+R: write at: hep/aida/bin/StaticBin1D.java#127 by (394)
+
+
+3. MEMORY: 1387274436626
+P: read at: hep/aida/bin/DynamicBin1D.java#366 by (393)
+C: read at: hep/aida/bin/DynamicBin1D.java#818 by (393)
+R: write at: hep/aida/bin/StaticBin1D.java#125 by (394)
+
+
+4. MEMORY: 1387274436627
+P: read at: hep/aida/bin/DynamicBin1D.java#373 by (393)
+C: read at: hep/aida/bin/DynamicBin1D.java#817 by (393)
+R: write at: hep/aida/bin/StaticBin1D.java#124 by (394)
+
+
+5. MEMORY: 1387274436621
+P: read at: hep/aida/bin/DynamicBin1D.java#372 by (393)
+C: read at: hep/aida/bin/DynamicBin1D.java#365 by (393)
+R: write at: hep/aida/bin/DynamicBin1D.java#855 by (394)
+
+
+6. MEMORY: 1387274436621
+P: read at: hep/aida/bin/DynamicBin1D.java#365 by (393)
+C: read at: hep/aida/bin/DynamicBin1D.java#719 by (393)
+R: write at: hep/aida/bin/DynamicBin1D.java#855 by (394)
+
+
+7. MEMORY: 1387274436621
+P: read at: hep/aida/bin/DynamicBin1D.java#719 by (393)
+C: read at: hep/aida/bin/DynamicBin1D.java#751 by (393)
+R: write at: hep/aida/bin/DynamicBin1D.java#855 by (394)
+
+
+8. MEMORY: 1387274436621
+P: read at: hep/aida/bin/DynamicBin1D.java#751 by (393)
+C: write at: hep/aida/bin/DynamicBin1D.java#830 by (393)
+R: write at: hep/aida/bin/DynamicBin1D.java#855 by (394)
+
+
+9. MEMORY: 1391569403912
+P: read at: cern/colt/list/AbstractDoubleList.java#758 by (393)
+C: read at: cern/colt/list/AbstractDoubleList.java#758 by (393)
+R: write at: cern/colt/list/AbstractDoubleList.java#731 by (394)
+
+
+-------------------------------------------
+
+Total PCR pairs found: 612
+No of unique PCR pairs that cause atomicity violation: 9

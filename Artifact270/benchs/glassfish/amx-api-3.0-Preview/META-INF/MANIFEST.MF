@@ -1,0 +1,129 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: 1.6.0_10 (Sun Microsystems Inc.)
+Built-By: java_re
+Build-Jdk: 1.6.0_10
+Extension-Name: amx-api
+Specification-Title: Appserver Management Extensions (AMX) interfaces 
+ and utilities
+Specification-Vendor: Sun Microsystems, Inc.
+Implementation-Vendor: Sun Microsystems, Inc.
+Implementation-Title: amx-api
+Implementation-Version: 3.0-Preview
+HK2-Import-Bundles: org.glassfish.common:stats77
+HK2-Bundle-Name: org.glassfish.common:amx-api
+Export-Package: com.sun.appserv.management;uses:="com.sun.appserv.mana
+ gement.config,com.sun.appserv.management.ext.update,com.sun.appserv.m
+ anagement.j2ee,com.sun.appserv.management.ext.wsmgmt,com.sun.appserv.
+ management.monitor,com.sun.appserv.management.ext.runtime,com.sun.app
+ serv.management.ext.realm,com.sun.appserv.management.base";version="3
+ .0.0",com.sun.appserv.management.annotation;uses:="com.sun.appserv.ma
+ nagement.config";version="3.0.0",com.sun.appserv.management.base;uses
+ :="com.sun.appserv.management,javax.management,com.sun.appserv.manage
+ ment.util.misc,com.sun.appserv.management.client,com.sun.appserv.mana
+ gement.util.jmx,javax.management.openmbean";version="3.0.0",com.sun.a
+ ppserv.management.client;uses:="com.sun.appserv.management.util.jmx,c
+ om.sun.appserv.management.util.misc,javax.management,javax.net.ssl,co
+ m.sun.appserv.management,javax.management.remote,com.sun.appserv.mana
+ gement.ext.wsmgmt,javax.management.relation,com.sun.appserv.managemen
+ t.base,com.sun.appserv.management.util.stringifier,com.sun.appserv.ma
+ nagement.helper";version="3.0.0",com.sun.appserv.management.config;us
+ es:="com.sun.appserv.management.base,javax.management,org.glassfish.a
+ dmin.amx.config.grizzly,com.sun.appserv.management.ext.logging,com.su
+ n.appserv.management.util.misc,com.sun.appserv.management.client,com.
+ sun.appserv.management";version="3.0.0",com.sun.appserv.management.ex
+ t.coverage;uses:="javax.management,com.sun.appserv.management.util.jm
+ x,com.sun.appserv.management.util.misc";version="3.0.0",com.sun.appse
+ rv.management.ext.lb;uses:="com.sun.appserv.management.base";version=
+ "3.0.0",com.sun.appserv.management.ext.realm;uses:="com.sun.appserv.m
+ anagement.base";version="3.0.0",com.sun.appserv.management.ext.loggin
+ g;uses:="com.sun.appserv.management.util.misc,javax.management,com.su
+ n.appserv.management.base,javax.management.openmbean";version="3.0.0"
+ ,com.sun.appserv.management.ext.update;uses:="com.sun.appserv.managem
+ ent.base";version="3.0.0",com.sun.appserv.management.ext.wsmgmt;uses:
+ ="com.sun.appserv.management.base";version="3.0.0",com.sun.appserv.ma
+ nagement.ext.runtime;uses:="com.sun.appserv.management.base";version=
+ "3.0.0",com.sun.appserv.management.helper;uses:="com.sun.appserv.mana
+ gement.util.misc,com.sun.appserv.management.base,com.sun.appserv.mana
+ gement.client,javax.net.ssl,com.sun.appserv.management,javax.manageme
+ nt,com.sun.appserv.management.ext.logging,com.sun.appserv.management.
+ config";version="3.0.0",com.sun.appserv.management.j2ee;uses:="com.su
+ n.appserv.management.base,org.glassfish.j2ee.statistics,com.sun.appse
+ rv.management.config,com.sun.appserv.management.monitor,com.sun.appse
+ rv.management.util.misc,javax.management,com.sun.appserv.management.e
+ xt.wsmgmt";version="3.0.0",com.sun.appserv.management.j2ee.statistics
+ ;uses:="com.sun.appserv.management.util.jmx,javax.management.openmbea
+ n,org.glassfish.j2ee.statistics,com.sun.appserv.management.util.misc,
+ com.sun.appserv.management.util.j2ee,com.sun.appserv.management.util.
+ j2ee.stringifier";version="3.0.0",com.sun.appserv.management.monitor;
+ uses:="javax.management.monitor,com.sun.appserv.management.base,com.s
+ un.appserv.management.monitor.statistics,org.glassfish.j2ee.statistic
+ s,javax.management.openmbean,com.sun.appserv.management.ext.logging";
+ version="3.0.0",com.sun.appserv.management.monitor.statistics;uses:="
+ org.glassfish.j2ee.statistics,com.sun.appserv.management.j2ee.statist
+ ics";version="3.0.0",com.sun.appserv.management.util.j2ee;uses:="com.
+ sun.appserv.management.util.jmx,javax.management.openmbean,com.sun.ap
+ pserv.management.util.misc,com.sun.appserv.management.j2ee.statistics
+ ,org.glassfish.j2ee.statistics";version="3.0.0",com.sun.appserv.manag
+ ement.util.j2ee.stringifier;uses:="com.sun.appserv.management.util.j2
+ ee,com.sun.appserv.management.util.misc,com.sun.appserv.management.ut
+ il.stringifier,org.glassfish.j2ee.statistics";version="3.0.0",com.sun
+ .appserv.management.util.jmx;uses:="com.sun.appserv.management.util.m
+ isc,javax.management,javax.management.openmbean,com.sun.appserv.manag
+ ement.client,javax.management.remote,com.sun.appserv.management.util.
+ stringifier,com.sun.appserv.management.util.jmx.stringifier,com.sun.a
+ ppserv.management.base,javax.management.relation";version="3.0.0",com
+ .sun.appserv.management.util.jmx.stringifier;uses:="com.sun.appserv.m
+ anagement.util.stringifier,javax.management,javax.management.openmbea
+ n,com.sun.appserv.management.util.misc,javax.management.monitor,com.s
+ un.appserv.management.util.j2ee.stringifier,org.glassfish.j2ee.statis
+ tics,javax.management.modelmbean";version="3.0.0",com.sun.appserv.man
+ agement.util.misc;uses:="com.sun.appserv.management.util.stringifier,
+ javax.management,com.sun.appserv.management.helper,com.sun.appserv.ma
+ nagement.util.jmx";version="3.0.0",com.sun.appserv.management.util.st
+ ringifier;uses:="com.sun.appserv.management.util.misc,javax.managemen
+ t";version="3.0.0",org.glassfish.admin.amx.config.grizzly;uses:="com.
+ sun.appserv.management.config";version="3.0.0",org.glassfish.admin.am
+ x.internal;uses:="com.sun.appserv.management.util.jmx,javax.managemen
+ t,com.sun.appserv.management,com.sun.appserv.management.base,com.sun.
+ appserv.management.config,com.sun.appserv.management.client,com.sun.a
+ ppserv.management.util.misc,com.sun.appserv.management.monitor";versi
+ on="3.0.0"
+Private-Package: com.sun.appserv.management.client.handler;version="3.
+ 0-Preview"
+Tool: Bnd-0.0.311
+Bundle-Name: AMX API
+Bundle-Vendor: Sun Microsystems, Inc.
+Bundle-Version: 3.0.0.Preview
+Bnd-LastModified: 1243559742612
+Bundle-ManifestVersion: 2
+Bundle-License: https://glassfish.dev.java.net/nonav/public/CDDL+GPL.h
+ tml
+Bundle-Description: Appserver Management Extensions (AMX) interfaces a
+ nd utilities
+Import-Package: com.sun.appserv.management;version="3.0",com.sun.appse
+ rv.management.annotation;version="3.0",com.sun.appserv.management.bas
+ e;version="3.0",com.sun.appserv.management.client;version="3.0",com.s
+ un.appserv.management.config;version="3.0",com.sun.appserv.management
+ .ext.coverage;version="3.0",com.sun.appserv.management.ext.lb;version
+ ="3.0",com.sun.appserv.management.ext.logging;version="3.0",com.sun.a
+ ppserv.management.ext.realm;version="3.0",com.sun.appserv.management.
+ ext.runtime;version="3.0",com.sun.appserv.management.ext.update;versi
+ on="3.0",com.sun.appserv.management.ext.wsmgmt;version="3.0",com.sun.
+ appserv.management.helper;version="3.0",com.sun.appserv.management.j2
+ ee;version="3.0",com.sun.appserv.management.j2ee.statistics;version="
+ 3.0",com.sun.appserv.management.monitor;version="3.0",com.sun.appserv
+ .management.monitor.statistics;version="3.0",com.sun.appserv.manageme
+ nt.util.j2ee;version="3.0",com.sun.appserv.management.util.j2ee.strin
+ gifier;version="3.0",com.sun.appserv.management.util.jmx;version="3.0
+ ",com.sun.appserv.management.util.jmx.stringifier;version="3.0",com.s
+ un.appserv.management.util.misc;version="3.0",com.sun.appserv.managem
+ ent.util.stringifier;version="3.0",javax.management,javax.management.
+ modelmbean,javax.management.monitor,javax.management.openmbean,javax.
+ management.relation,javax.management.remote,javax.net.ssl,org.glassfi
+ sh.admin.amx.config.grizzly;version="3.0",org.glassfish.admin.amx.int
+ ernal;version="3.0",org.glassfish.j2ee.statistics;version="3.0"
+Bundle-DocURL: http://www.sun.com
+Bundle-SymbolicName: org.glassfish.common.amx-api
+Originally-Created-By: 1.6.0_10 (Sun Microsystems Inc.)
+

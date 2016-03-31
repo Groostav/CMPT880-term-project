@@ -1,0 +1,37 @@
+Analysis class javato.activetesting.CTrigger-1
+Setting current invocation to next to be collected at line 25
+
+Exiting Sequential Invocation
+Invoking the test case CarbonadoTest
+
+Setting current invocation to next to be collected at line 25
+
+Exiting Sequential Invocation
+Invoking the test case CarbonadoTest
+
+TestDriver Error
+TestDriver Error
+
+
+1. MEMORY: 1060856922121
+P: read at: com/amazon/carbonado/cursor/SkipCursor.java#77 by (251)
+C: read at: com/amazon/carbonado/cursor/SkipCursor.java#78 by (251)
+R: write at: com/amazon/carbonado/cursor/SkipCursor.java#82 by (250)
+
+
+2. MEMORY: 1060856922121
+P: read at: com/amazon/carbonado/cursor/SkipCursor.java#78 by (251)
+C: read at: com/amazon/carbonado/cursor/SkipCursor.java#81 by (251)
+R: write at: com/amazon/carbonado/cursor/SkipCursor.java#82 by (250)
+
+
+3. MEMORY: 1060856922121
+P: read at: com/amazon/carbonado/cursor/SkipCursor.java#81 by (251)
+C: write at: com/amazon/carbonado/cursor/SkipCursor.java#82 by (251)
+R: write at: com/amazon/carbonado/cursor/SkipCursor.java#82 by (250)
+
+
+-------------------------------------------
+
+Total PCR pairs found: 14
+No of unique PCR pairs that cause atomicity violation: 3

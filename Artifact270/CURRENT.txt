@@ -1,0 +1,55 @@
+Since our submission, we have been improving our implementation. 
+As a consequence, we have been able to synthesize more tests and as 
+a result, more atomicity violations. We now provide the differential data from 
+the paper submission to AEC submission.
+
+
+Paper submission: 
+Class, Tests, Synthesis Time (secs)
+C1, 4, 39.2
+C2, 8, 12.1
+C3, 6, 17.2
+C4, 3, 2.7
+C5, 1, 4
+C6, 1, 1.6
+C7, 1, 1.6
+C8, 7, 13.6
+C9, 2, 2.5
+
+AEC submission (Running it on the baremetal configuration reported in the paper.): 
+Class, Tests, Synthesis Time (secs)
+C1, 11, 33.9
+C2, 8, 11.1
+C3, 6,  12.7
+C4, 3, 3.1
+C5, 1, 3.6
+C6, 1, 1.5
+C7, 1, 1.4
+C8, 7, 15.5
+C9, 2, 2.4 
+
+AEC submission (Running it on the supplied VM image.): 
+Class, Tests, Synthesis Time (secs)
+C1, 11,  111.0
+C2, 8,  45.1
+C3, 6,   55.2
+C4, 3,  12.0
+C5, 1,  22.1
+C6, 1,  5.7
+C7, 1,  6.9
+C8, 6,  80.0
+C9, 2,  11.5
+
+Defects Reported in the submitted paper, Defects currently reported :
+
+C1, 15,  33
+C2, 13,  16
+C3, 10,  12
+C4, 10,  9
+C5,  2,  2
+C6,  1,  1
+C7,  1,  1
+C8, 31,  58
+C9,  2,  1
+
+The defects being reported can vary due to the non-determinism present in CTrigger. The focus of the current paper is *test synthesis* and NOT detection.

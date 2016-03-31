@@ -1,0 +1,4 @@
+TestDriver Error
+java.lang.IllegalStateException: Already started!
+	at opennlp.tools.cmdline.PerformanceMonitor.start(PerformanceMonitor.java:83)
+	at Thread1.run(TestDriver1.java:91)

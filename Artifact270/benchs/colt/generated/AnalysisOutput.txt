@@ -1,0 +1,301 @@
+Pinting the deadlocks36
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 8806 of type class hep.aida.bin.DynamicBin1D held at iid5453 instruction at hep/aida/bin/DynamicBin1D.java# Line172
+Lock 2629 of type class hep.aida.bin.DynamicBin1D held at iid27 instruction at TestDriver.java# Line29
+******** Thread Thread-2
+Lock 2629 of type class hep.aida.bin.DynamicBin1D held at iid5453 instruction at hep/aida/bin/DynamicBin1D.java# Line172
+Lock 8806 of type class hep.aida.bin.DynamicBin1D held at iid549 instruction at TestDriver.java# Line46
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 8659 of type class hep.aida.bin.DynamicBin1D held at iid5453 instruction at hep/aida/bin/DynamicBin1D.java# Line172
+Lock 2482 of type class hep.aida.bin.DynamicBin1D held at iid114 instruction at TestDriver.java# Line83
+******** Thread Thread-2
+Lock 2482 of type class hep.aida.bin.DynamicBin1D held at iid2683 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 8659 of type class hep.aida.bin.DynamicBin1D held at iid143 instruction at TestDriver.java# Line100
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 8659 of type class hep.aida.bin.DynamicBin1D held at iid5453 instruction at hep/aida/bin/DynamicBin1D.java# Line172
+Lock 2482 of type class hep.aida.bin.DynamicBin1D held at iid114 instruction at TestDriver.java# Line83
+******** Thread Thread-2
+Lock 2482 of type class hep.aida.bin.DynamicBin1D held at iid2691 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 8659 of type class hep.aida.bin.DynamicBin1D held at iid143 instruction at TestDriver.java# Line100
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 8659 of type class hep.aida.bin.DynamicBin1D held at iid5453 instruction at hep/aida/bin/DynamicBin1D.java# Line172
+Lock 2482 of type class hep.aida.bin.DynamicBin1D held at iid114 instruction at TestDriver.java# Line83
+******** Thread Thread-2
+Lock 2482 of type class hep.aida.bin.DynamicBin1D held at iid2699 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 8659 of type class hep.aida.bin.DynamicBin1D held at iid143 instruction at TestDriver.java# Line100
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 8659 of type class hep.aida.bin.DynamicBin1D held at iid5453 instruction at hep/aida/bin/DynamicBin1D.java# Line172
+Lock 2482 of type class hep.aida.bin.DynamicBin1D held at iid114 instruction at TestDriver.java# Line83
+******** Thread Thread-2
+Lock 2482 of type class hep.aida.bin.DynamicBin1D held at iid2707 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 8659 of type class hep.aida.bin.DynamicBin1D held at iid143 instruction at TestDriver.java# Line100
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 8659 of type class hep.aida.bin.DynamicBin1D held at iid5453 instruction at hep/aida/bin/DynamicBin1D.java# Line172
+Lock 2482 of type class hep.aida.bin.DynamicBin1D held at iid114 instruction at TestDriver.java# Line83
+******** Thread Thread-2
+Lock 2482 of type class hep.aida.bin.DynamicBin1D held at iid2715 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 8659 of type class hep.aida.bin.DynamicBin1D held at iid143 instruction at TestDriver.java# Line100
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 8659 of type class hep.aida.bin.DynamicBin1D held at iid5453 instruction at hep/aida/bin/DynamicBin1D.java# Line172
+Lock 2482 of type class hep.aida.bin.DynamicBin1D held at iid114 instruction at TestDriver.java# Line83
+******** Thread Thread-2
+Lock 2482 of type class hep.aida.bin.DynamicBin1D held at iid5533 instruction at hep/aida/bin/DynamicBin1D.java# Line248
+Lock 8659 of type class hep.aida.bin.DynamicBin1D held at iid143 instruction at TestDriver.java# Line100
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid5453 instruction at hep/aida/bin/DynamicBin1D.java# Line172
+Lock 2482 of type class hep.aida.bin.DynamicBin1D held at iid172 instruction at TestDriver.java# Line137
+******** Thread Thread-2
+Lock 2482 of type class hep.aida.bin.DynamicBin1D held at iid5468 instruction at hep/aida/bin/DynamicBin1D.java# Line184
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid201 instruction at TestDriver.java# Line154
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2683 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid2683 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2683 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid2691 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2683 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid2699 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2683 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid2707 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2683 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid2715 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2683 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid5533 instruction at hep/aida/bin/DynamicBin1D.java# Line248
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2691 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid2691 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2691 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid2699 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2691 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid2707 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2691 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid2715 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2691 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid5533 instruction at hep/aida/bin/DynamicBin1D.java# Line248
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2699 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid2699 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2699 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid2707 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2699 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid2715 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2699 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid5533 instruction at hep/aida/bin/DynamicBin1D.java# Line248
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2707 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid2707 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2707 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid2715 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2707 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid5533 instruction at hep/aida/bin/DynamicBin1D.java# Line248
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2715 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid2715 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid2715 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid5533 instruction at hep/aida/bin/DynamicBin1D.java# Line248
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid5533 instruction at hep/aida/bin/DynamicBin1D.java# Line248
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid259 instruction at TestDriver.java# Line191
+******** Thread Thread-2
+Lock 3546 of type class hep.aida.bin.DynamicBin1D held at iid5533 instruction at hep/aida/bin/DynamicBin1D.java# Line248
+Lock 9723 of type class hep.aida.bin.DynamicBin1D held at iid85 instruction at TestDriver.java# Line208
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid2683 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 373 of type class hep.aida.bin.DynamicBin1D held at iid56 instruction at TestDriver.java# Line245
+******** Thread Thread-2
+Lock 373 of type class hep.aida.bin.DynamicBin1D held at iid5468 instruction at hep/aida/bin/DynamicBin1D.java# Line184
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid578 instruction at TestDriver.java# Line262
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid2691 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 373 of type class hep.aida.bin.DynamicBin1D held at iid56 instruction at TestDriver.java# Line245
+******** Thread Thread-2
+Lock 373 of type class hep.aida.bin.DynamicBin1D held at iid5468 instruction at hep/aida/bin/DynamicBin1D.java# Line184
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid578 instruction at TestDriver.java# Line262
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid2699 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 373 of type class hep.aida.bin.DynamicBin1D held at iid56 instruction at TestDriver.java# Line245
+******** Thread Thread-2
+Lock 373 of type class hep.aida.bin.DynamicBin1D held at iid5468 instruction at hep/aida/bin/DynamicBin1D.java# Line184
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid578 instruction at TestDriver.java# Line262
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid2707 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 373 of type class hep.aida.bin.DynamicBin1D held at iid56 instruction at TestDriver.java# Line245
+******** Thread Thread-2
+Lock 373 of type class hep.aida.bin.DynamicBin1D held at iid5468 instruction at hep/aida/bin/DynamicBin1D.java# Line184
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid578 instruction at TestDriver.java# Line262
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid2715 instruction at hep/aida/bin/AbstractBin1D.java# Line85
+Lock 373 of type class hep.aida.bin.DynamicBin1D held at iid56 instruction at TestDriver.java# Line245
+******** Thread Thread-2
+Lock 373 of type class hep.aida.bin.DynamicBin1D held at iid5468 instruction at hep/aida/bin/DynamicBin1D.java# Line184
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid578 instruction at TestDriver.java# Line262
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid5533 instruction at hep/aida/bin/DynamicBin1D.java# Line248
+Lock 373 of type class hep.aida.bin.DynamicBin1D held at iid56 instruction at TestDriver.java# Line245
+******** Thread Thread-2
+Lock 373 of type class hep.aida.bin.DynamicBin1D held at iid5468 instruction at hep/aida/bin/DynamicBin1D.java# Line184
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid578 instruction at TestDriver.java# Line262
+
+########## Printing deadlock stack ########## 
+******** Thread Thread-1
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid5468 instruction at hep/aida/bin/DynamicBin1D.java# Line184
+Lock 5436 of type class hep.aida.bin.DynamicBin1D held at iid520 instruction at TestDriver.java# Line299
+******** Thread Thread-2
+Lock 5436 of type class hep.aida.bin.DynamicBin1D held at iid5468 instruction at hep/aida/bin/DynamicBin1D.java# Line184
+Lock 11613 of type class hep.aida.bin.DynamicBin1D held at iid230 instruction at TestDriver.java# Line316
+
+############ Time taken#############
+ CD + PS            : 329151 msec
+ G                  : 33468 msec
+ DD                 : 78552 msec
+###################################
+############ Size #############
+ Graph size |D|     : 64
+ Trace size |SIGMA| : 1025072
+ |Theta|            : 64
+ |CMI|              : 36
+ |Tests|            : 6
+###################################

@@ -1,0 +1,36 @@
+
+Main thread: 
+   D d = new D();
+
+   C c1 = new C();
+   C c2 = new C();
+   c1.setF(d);
+   c2.setF(d); 
+
+   B b1 = new B();
+   B b2 = new B();
+   b1.setF(c1);
+   b2.setF(c2); 
+
+   Library lib1 = new Library();
+   Library lib2 = new Library();
+   lib1.setF(b1);
+   lib2.setF(b2); 
+   
+
+
+Thread1: 
+   lib.foo(); 
+
+Thread2: 
+   lib.foo(); 
+
+Atomicity violation on : lib.f.f.f.racyField in foo()
+
+       Thread1        		 Thread1
+
+   read(lib1.f.f.f.racyField)
+ 
+			     write(lib2.f.f.f.racyField)
+
+   write(lib1.f.f.f.racyField)

@@ -1,0 +1,71 @@
+Analysis class javato.activetesting.CTrigger-1
+Setting current invocation to equals to be collected at line 51
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class ColtTest
+
+Setting current invocation to equals to be collected at line 51
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class ColtTest
+
+
+
+1. MEMORY: 1387274436620
+P: read at: hep/aida/bin/DynamicBin1D.java#372 by (363)
+C: read at: hep/aida/bin/DynamicBin1D.java#365 by (363)
+R: write at: hep/aida/bin/DynamicBin1D.java#830 by (362)
+
+
+2. MEMORY: 1387274436620
+P: read at: hep/aida/bin/DynamicBin1D.java#372 by (363)
+C: read at: hep/aida/bin/DynamicBin1D.java#365 by (363)
+R: write at: hep/aida/bin/DynamicBin1D.java#343 by (362)
+
+
+3. MEMORY: 1387274436620
+P: read at: hep/aida/bin/DynamicBin1D.java#372 by (363)
+C: read at: hep/aida/bin/DynamicBin1D.java#365 by (363)
+R: write at: hep/aida/bin/DynamicBin1D.java#662 by (362)
+
+
+4. MEMORY: 1387274436620
+P: read at: hep/aida/bin/DynamicBin1D.java#365 by (363)
+C: read at: hep/aida/bin/DynamicBin1D.java#719 by (363)
+R: write at: hep/aida/bin/DynamicBin1D.java#830 by (362)
+
+
+5. MEMORY: 1387274436620
+P: read at: hep/aida/bin/DynamicBin1D.java#365 by (363)
+C: read at: hep/aida/bin/DynamicBin1D.java#719 by (363)
+R: write at: hep/aida/bin/DynamicBin1D.java#343 by (362)
+
+
+6. MEMORY: 1387274436620
+P: read at: hep/aida/bin/DynamicBin1D.java#365 by (363)
+C: read at: hep/aida/bin/DynamicBin1D.java#719 by (363)
+R: write at: hep/aida/bin/DynamicBin1D.java#662 by (362)
+
+
+7. MEMORY: 1387274436620
+P: read at: hep/aida/bin/DynamicBin1D.java#719 by (363)
+C: read at: hep/aida/bin/DynamicBin1D.java#751 by (363)
+R: write at: hep/aida/bin/DynamicBin1D.java#830 by (362)
+
+
+8. MEMORY: 1387274436620
+P: read at: hep/aida/bin/DynamicBin1D.java#719 by (363)
+C: read at: hep/aida/bin/DynamicBin1D.java#751 by (363)
+R: write at: hep/aida/bin/DynamicBin1D.java#343 by (362)
+
+
+9. MEMORY: 1387274436620
+P: read at: hep/aida/bin/DynamicBin1D.java#719 by (363)
+C: read at: hep/aida/bin/DynamicBin1D.java#751 by (363)
+R: write at: hep/aida/bin/DynamicBin1D.java#662 by (362)
+
+
+-------------------------------------------
+
+Total PCR pairs found: 865
+No of unique PCR pairs that cause atomicity violation: 9

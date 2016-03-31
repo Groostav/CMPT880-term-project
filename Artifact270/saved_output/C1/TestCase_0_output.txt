@@ -1,0 +1,47 @@
+Analysis class javato.activetesting.CTrigger-1
+Setting current invocation to equals to be collected at line 51
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class ColtTest
+
+Setting current invocation to addAllOf to be collected at line 39
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class ColtTest
+
+
+
+1. MEMORY: 1387274436637
+P: read at: hep/aida/bin/DynamicBin1D.java#372 by (356)
+C: read at: hep/aida/bin/DynamicBin1D.java#365 by (356)
+R: write at: hep/aida/bin/DynamicBin1D.java#343 by (357)
+
+
+2. MEMORY: 1387274436637
+P: read at: hep/aida/bin/DynamicBin1D.java#365 by (356)
+C: read at: hep/aida/bin/DynamicBin1D.java#719 by (356)
+R: write at: hep/aida/bin/DynamicBin1D.java#343 by (357)
+
+
+3. MEMORY: 1387274436637
+P: read at: hep/aida/bin/DynamicBin1D.java#719 by (356)
+C: read at: hep/aida/bin/DynamicBin1D.java#751 by (356)
+R: write at: hep/aida/bin/DynamicBin1D.java#343 by (357)
+
+
+4. MEMORY: 1387274436637
+P: read at: hep/aida/bin/DynamicBin1D.java#751 by (356)
+C: write at: hep/aida/bin/DynamicBin1D.java#830 by (356)
+R: write at: hep/aida/bin/DynamicBin1D.java#343 by (357)
+
+
+5. MEMORY: 1391569403912
+P: read at: cern/colt/list/AbstractDoubleList.java#758 by (356)
+C: read at: cern/colt/list/AbstractDoubleList.java#758 by (356)
+R: write at: cern/colt/list/AbstractDoubleList.java#731 by (357)
+
+
+-------------------------------------------
+
+Total PCR pairs found: 609
+No of unique PCR pairs that cause atomicity violation: 5

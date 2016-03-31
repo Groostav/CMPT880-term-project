@@ -1,0 +1,29 @@
+Analysis class javato.activetesting.CTrigger-1
+Setting current invocation to retainAll to be collected at line 48
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class VectorTest
+
+Setting current invocation to clear to be collected at line 28
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class VectorTest
+
+
+
+1. MEMORY: 528280977416
+P: read at: benchmarks/instrumented/java17/util/Vector.java#411 by (130)
+C: read at: benchmarks/instrumented/java17/util/Vector.java#411 by (130)
+R: write at: benchmarks/instrumented/java17/util/Vector.java#662 by (131)
+
+
+2. MEMORY: 523986010123
+P: read at: benchmarks/instrumented/java17/util/Vector.java#410 by (130)
+C: read at: benchmarks/instrumented/java17/util/Vector.java#410 by (130)
+R: write at: benchmarks/instrumented/java17/util/Vector.java#664 by (131)
+
+
+-------------------------------------------
+
+Total PCR pairs found: 1236
+No of unique PCR pairs that cause atomicity violation: 2

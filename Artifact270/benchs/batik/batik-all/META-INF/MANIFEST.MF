@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.1
+Created-By: jvmxi3260-20080816_22093 (IBM Corporation)
+Implementation-Title: Batik all-in-one JAR
+Implementation-Version: 1.7beta1+r522399
+Implementation-Vendor: The Apache Software Foundation (http://xmlgraph
+ ics.apache.org/batik/)
+Build-Id: 20101031-182818-PDT (mhn [Linux 2.6.9-89.0.16.EL x86, Java j
+ vmxi3260-20080816_22093])
+Main-Class: org.apache.batik.apps.svgbrowser.Main
+

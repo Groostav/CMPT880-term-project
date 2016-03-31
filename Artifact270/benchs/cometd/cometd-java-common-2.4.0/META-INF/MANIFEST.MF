@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: simon
+Build-Jdk: 1.6.0_30
+Export-Package: org.cometd.common;uses:="org.cometd.bayeux.client,org.
+ slf4j,org.cometd.bayeux,org.eclipse.jetty.util,org.cometd.bayeux.serv
+ er,org.codehaus.jackson.map,org.codehaus.jackson.type,org.eclipse.jet
+ ty.util.ajax";version="2.4.0"
+Tool: Bnd-1.43.0
+Bundle-Name: CometD :: Java :: Bayeux Common
+Bundle-Vendor: Dojo Foundation
+Bundle-ContactAddress: http://cometd.org/cometd-java/cometd-java-common
+Bundle-Version: 2.4.0
+Bnd-LastModified: 1328278090937
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0, http://www
+ .opensource.org/licenses/bsd-license.html, http://opensource-definiti
+ on.org/licenses/afl-2.1.html
+Bundle-Description: The CometD project is a scalable web messaging bus
+  that uses WebSocketand HTTP AJAX push technology patterns known as "
+ Comet" techniques
+Import-Package: org.codehaus.jackson.map;version="[1.9,2)";resolution:
+ =optional,org.codehaus.jackson.type;version="[1.9,2)";resolution:=opt
+ ional,org.cometd.bayeux;version="[2.4,3)",org.cometd.bayeux.client;ve
+ rsion="[2.4,3)",org.cometd.bayeux.server;version="[2.4,3)",org.eclips
+ e.jetty.util;version="[7.6,9)",org.eclipse.jetty.util.ajax;version="[
+ 7.6,9)",org.slf4j;version="[1.6,2)"
+Bundle-DocURL: http://docs.cometd.org
+Bundle-SymbolicName: cometd-java-common
+

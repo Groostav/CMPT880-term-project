@@ -1,0 +1,47 @@
+Analysis class javato.activetesting.CTrigger-1
+Setting current invocation to remove to be collected at line 27
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class BatikCGNTest
+
+Setting current invocation to remove to be collected at line 27
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class BatikCGNTest
+
+
+
+1. MEMORY: 807453851682
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#964 by (222)
+C: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#818 by (222)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (223)
+
+
+2. MEMORY: 807453851682
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#818 by (222)
+C: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (222)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (223)
+
+
+3. MEMORY: 807453851682
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (222)
+C: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (222)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (223)
+
+
+4. MEMORY: 807453851682
+P: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (222)
+C: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#823 by (222)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (223)
+
+
+5. MEMORY: 807453851692
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#817 by (222)
+C: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#817 by (222)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#817 by (223)
+
+
+-------------------------------------------
+
+Total PCR pairs found: 242
+No of unique PCR pairs that cause atomicity violation: 5

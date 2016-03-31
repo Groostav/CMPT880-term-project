@@ -1,0 +1,87 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: 1.6.0_10 (Sun Microsystems Inc.)
+Built-By: java_re
+Build-Jdk: 1.6.0_10
+Extension-Name: amx-core-impl
+Specification-Title: Implementation of core AMX APIs
+Specification-Vendor: GlassFish Community
+Implementation-Vendor: GlassFish Community
+Implementation-Title: amx-core-impl
+Implementation-Version: 3.0
+HK2-Import-Bundles: org.glassfish.common:internal-api, org.glassfish.c
+ ommon:amx-core, org.glassfish.common:glassfish-mbeanserver
+HK2-Class-Path-Id: org.glassfish.common:internal-api:jar:3.0 com.sun.e
+ nterprise:hk2:jar:1.0.0 com.sun.enterprise:hk2-core:jar:1.0.0 com.sun
+ .enterprise:config:jar:1.0.0 com.sun.enterprise:auto-depends:jar:1.0.
+ 0 com.sun.enterprise:tiger-types-osgi:jar:1.0.0 org.glassfish:bean-va
+ lidator:jar:3.0-JBoss-4.0.2 org.glassfish.common:glassfish-api:jar:3.
+ 0 com.sun.enterprise:config-types:jar:1.0.0 com.sun.grizzly:grizzly-u
+ tils:jar:1.9.18-k org.glassfish.external:management-api:jar:3.0.0-b01
+ 2 org.glassfish.admin:config-api:jar:3.0 org.glassfish.common:common-
+ util:jar:3.0 org.glassfish:javax.servlet:jar:3.0 com.sun.grizzly:griz
+ zly-config:jar:1.9.18-k com.sun.grizzly:grizzly-http:jar:1.9.18-k com
+ .sun.grizzly:grizzly-framework:jar:1.9.18-k com.sun.grizzly:grizzly-r
+ cm:jar:1.9.18-k com.sun.grizzly:grizzly-portunif:jar:1.9.18-k com.sun
+ .enterprise:osgi-adapter:jar:1.0.0 org.glassfish.common:amx-core:jar:
+ 3.0 org.glassfish.common:glassfish-mbeanserver:jar:3.0 org.glassfish.
+ external:jmxremote_optional-repackaged:jar:3.0
+HK2-Bundle-Name: org.glassfish.common:amx-core-impl
+Class-Path: internal-api.jar hk2.jar hk2-core.jar config.jar auto-depe
+ nds.jar tiger-types-osgi.jar bean-validator.jar glassfish-api.jar con
+ fig-types.jar grizzly-utils.jar management-api.jar config-api.jar com
+ mon-util.jar javax.servlet.jar grizzly-config.jar grizzly-http.jar gr
+ izzly-framework.jar grizzly-rcm.jar grizzly-portunif.jar osgi-adapter
+ .jar amx-core.jar glassfish-mbeanserver.jar jmxremote_optional-repack
+ aged.jar
+Export-Package: org.glassfish.admin.amx.impl.mbean;uses:="org.glassfis
+ h.admin.amx.util,org.glassfish.admin.amx.impl.util,org.glassfish.admi
+ n.amx.util.jmx.stringifier,javax.management,org.glassfish.admin.amx.c
+ ore,org.glassfish.admin.amx.util.stringifier,org.glassfish.admin.amx.
+ util.jmx,org.glassfish.admin.amx.core.proxy,org.glassfish.admin.amx.b
+ ase,com.sun.enterprise.config.serverbeans,com.sun.enterprise.universa
+ l,org.glassfish.server,com.sun.enterprise.module.bootstrap,com.sun.en
+ terprise.universal.io,com.sun.appserv.server.util,org.glassfish.admin
+ .amx.monitoring,org.glassfish.external.amx,javax.management.openmbean
+ ,org.glassfish.external.arc";version="3.0.0",org.glassfish.admin.amx.
+ impl.util;uses:="com.sun.logging,org.glassfish.admin.amx.core.proxy,o
+ rg.glassfish.server,org.glassfish.admin.amx.core,javax.management,com
+ .sun.enterprise.config.serverbeans,org.jvnet.hk2.component,com.sun.en
+ terprise.module,org.glassfish.api,org.glassfish.internal.api,org.glas
+ sfish.internal.config,org.jvnet.hk2.annotations,org.glassfish.admin.a
+ mx.util.jmx,org.glassfish.admin.amx.base,javax.management.modelmbean,
+ org.glassfish.admin.amx.annotation,org.glassfish.admin.amx.util.strin
+ gifier,org.glassfish.external.arc";version="3.0.0"
+Tool: Bnd-0.0.357
+Bundle-Name: AMX V3 Core implementation
+Bundle-Vendor: GlassFish Community
+Bundle-Version: 3.0
+Bnd-LastModified: 1260401938589
+Bundle-ManifestVersion: 2
+Bundle-License: https://glassfish.dev.java.net/nonav/public/CDDL+GPL.h
+ tml
+Bundle-Description: Implementation of core AMX APIs
+Import-Package: com.sun.appserv.server.util;version="3.0",com.sun.ente
+ rprise.config.serverbeans;version="3.0",com.sun.enterprise.module;ver
+ sion="1.0",com.sun.enterprise.module.bootstrap;version="1.0",com.sun.
+ enterprise.universal;version="3.0",com.sun.enterprise.universal.io;ve
+ rsion="3.0",com.sun.logging;version="3.0",javax.management,javax.mana
+ gement.modelmbean,javax.management.openmbean,javax.management.remote,
+ org.glassfish.admin.amx.annotation;version="3.0",org.glassfish.admin.
+ amx.base;version="3.0",org.glassfish.admin.amx.core;version="3.0",org
+ .glassfish.admin.amx.core.proxy;version="3.0",org.glassfish.admin.amx
+ .impl.mbean;version="3.0",org.glassfish.admin.amx.impl.util;version="
+ 3.0",org.glassfish.admin.amx.monitoring;version="3.0",org.glassfish.a
+ dmin.amx.util;version="3.0",org.glassfish.admin.amx.util.jmx;version=
+ "3.0",org.glassfish.admin.amx.util.jmx.stringifier;version="3.0",org.
+ glassfish.admin.amx.util.stringifier;version="3.0",org.glassfish.admi
+ n.mbeanserver;version="3.0",org.glassfish.api;version="3.0",org.glass
+ fish.api.amx;version="3.0",org.glassfish.api.event;version="3.0",org.
+ glassfish.external.amx,org.glassfish.external.arc,org.glassfish.inter
+ nal.api;version="3.0",org.glassfish.internal.config;version="3.0",org
+ .glassfish.server;version="3.0",org.jvnet.hk2.annotations;version="1.
+ 0",org.jvnet.hk2.component;version="1.0"
+Bundle-DocURL: https://glassfish.dev.java.net
+Bundle-SymbolicName: org.glassfish.common.amx-core-impl
+Originally-Created-By: 1.6.0_10 (Sun Microsystems Inc.)
+

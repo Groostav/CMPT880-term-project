@@ -1,0 +1,29 @@
+Analysis class javato.activetesting.CTrigger-1
+Setting current invocation to remove to be collected at line 27
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class BatikCGNTest
+
+Setting current invocation to ensureCapacity to be collected at line 28
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class BatikCGNTest
+
+
+
+1. MEMORY: 807453851672
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#817 by (222)
+C: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#817 by (222)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#981 by (223)
+
+
+2. MEMORY: 807453851672
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#981 by (223)
+C: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#981 by (223)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#817 by (222)
+
+
+-------------------------------------------
+
+Total PCR pairs found: 150
+No of unique PCR pairs that cause atomicity violation: 2

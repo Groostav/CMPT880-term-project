@@ -1,0 +1,65 @@
+Analysis class javato.activetesting.CTrigger-1
+Setting current invocation to sampleBootstrap to be collected at line 52
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class ColtTest
+
+Setting current invocation to sampleBootstrap to be collected at line 52
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class ColtTest
+
+
+
+1. MEMORY: 1455993913383
+P: read at: cern/jet/random/engine/MersenneTwister.java#222 by (366)
+C: write at: cern/jet/random/engine/MersenneTwister.java#214 by (366)
+R: write at: cern/jet/random/engine/MersenneTwister.java#224 by (367)
+
+
+2. MEMORY: 1455993913383
+P: write at: cern/jet/random/engine/MersenneTwister.java#214 by (366)
+C: read at: cern/jet/random/engine/MersenneTwister.java#224 by (366)
+R: write at: cern/jet/random/engine/MersenneTwister.java#224 by (367)
+
+
+3. MEMORY: 1455993913383
+P: read at: cern/jet/random/engine/MersenneTwister.java#224 by (366)
+C: write at: cern/jet/random/engine/MersenneTwister.java#224 by (366)
+R: write at: cern/jet/random/engine/MersenneTwister.java#224 by (367)
+
+
+4. MEMORY: 1455993913383
+P: write at: cern/jet/random/engine/MersenneTwister.java#224 by (366)
+C: read at: cern/jet/random/engine/MersenneTwister.java#222 by (366)
+R: write at: cern/jet/random/engine/MersenneTwister.java#224 by (367)
+
+
+5. MEMORY: 1455993913383
+P: read at: cern/jet/random/engine/MersenneTwister.java#222 by (366)
+C: read at: cern/jet/random/engine/MersenneTwister.java#224 by (366)
+R: write at: cern/jet/random/engine/MersenneTwister.java#224 by (367)
+
+
+6. MEMORY: 1455993913383
+P: read at: cern/jet/random/engine/MersenneTwister.java#222 by (367)
+C: read at: cern/jet/random/engine/MersenneTwister.java#224 by (367)
+R: write at: cern/jet/random/engine/MersenneTwister.java#214 by (366)
+
+
+7. MEMORY: 1455993913383
+P: read at: cern/jet/random/engine/MersenneTwister.java#224 by (367)
+C: write at: cern/jet/random/engine/MersenneTwister.java#224 by (367)
+R: write at: cern/jet/random/engine/MersenneTwister.java#214 by (366)
+
+
+8. MEMORY: 1455993913383
+P: write at: cern/jet/random/engine/MersenneTwister.java#224 by (367)
+C: read at: cern/jet/random/engine/MersenneTwister.java#222 by (367)
+R: write at: cern/jet/random/engine/MersenneTwister.java#214 by (366)
+
+
+-------------------------------------------
+
+Total PCR pairs found: 8940
+No of unique PCR pairs that cause atomicity violation: 8

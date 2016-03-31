@@ -1,0 +1,17 @@
+Analysis class javato.activetesting.CTrigger-1
+Setting current invocation to addAllOf to be collected at line 39
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class ColtTest
+
+Setting current invocation to sampleBootstrap to be collected at line 52
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class ColtTest
+
+
+
+-------------------------------------------
+
+Total PCR pairs found: 21
+No of unique PCR pairs that cause atomicity violation: 0

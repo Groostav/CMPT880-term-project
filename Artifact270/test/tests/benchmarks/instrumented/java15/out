@@ -1,0 +1,613 @@
+comSunCorbaSeImpl/monitoring/MonitoredObjectImpl.java:        synchronized( this ) {
+comSunCorbaSeImpl/monitoring/MonitoredObjectImpl.java:        synchronized( this ) {
+comSunCorbaSeImpl/monitoring/MonitoredObjectImpl.java:            synchronized( this ) {
+comSunCorbaSeImpl/monitoring/MonitoredObjectImpl.java:            synchronized( this ) {
+comSunCorbaSeImpl/monitoring/MonitoredObjectImpl.java:    public synchronized MonitoredObject getParent( ) {
+comSunCorbaSeImpl/monitoring/MonitoredObjectImpl.java:    public synchronized void setParent( MonitoredObject p ) {
+comSunCorbaSeImpl/monitoring/MonitoredObjectImpl.java:        synchronized( this ) {
+comSunCorbaSeImpl/monitoring/MonitoredObjectImpl.java:        synchronized( this ) {
+comSunCorbaSeImpl/monitoring/MonitoredObjectImpl.java:            synchronized( this ) {
+comSunCorbaSeImpl/monitoring/MonitoredObjectImpl.java:            synchronized( this ) {
+comSunCorbaSeImpl/monitoring/MonitoredObjectImpl.java:        synchronized( this ) {
+io/ByteArrayOutputStream.java:    public synchronized void write(int b) {
+io/ByteArrayOutputStream.java:    public synchronized void write(byte b[], int off, int len) {
+io/ByteArrayOutputStream.java:    public synchronized void writeTo(OutputStream out) throws IOException {
+io/ByteArrayOutputStream.java:    public synchronized void reset() {
+io/ByteArrayOutputStream.java:    public synchronized byte toByteArray()[] {
+io/ByteArrayOutputStream.java:    public synchronized int size() {
+io/ByteArrayOutputStream.java:    public synchronized String toString() {
+io/ByteArrayOutputStream.java:    public synchronized String toString(String charsetName)
+io/ByteArrayOutputStream.java:    public synchronized String toString(int hibyte) {
+io/CharArrayWriter.java:	synchronized (lock) {
+io/CharArrayWriter.java:	synchronized (lock) {
+io/CharArrayWriter.java:	synchronized (lock) {
+io/CharArrayWriter.java:	synchronized (lock) {
+io/CharArrayWriter.java:	synchronized (lock) {
+io/CharArrayWriter.java:	synchronized (lock) {
+swing/text/html/MuxingAttributeSet.java:    protected synchronized void setAttributes(AttributeSet[] attrs) {
+swing/text/html/MuxingAttributeSet.java:    protected synchronized AttributeSet[] getAttributes() {
+swing/text/html/MuxingAttributeSet.java:    protected synchronized void insertAttributeSetAt(AttributeSet as,
+swing/text/html/MuxingAttributeSet.java:    protected synchronized void removeAttributeSetAt(int index) {
+swing/text/html/StyleSheet.java:            synchronized(this) {
+swing/text/html/StyleSheet.java:        synchronized(this) {
+swing/text/html/StyleSheet.java:        synchronized(this) {
+swing/text/html/StyleSheet.java:        synchronized(this) {
+swing/text/html/StyleSheet.java:            // the synchronized block. It is done like this as creating
+swing/text/html/StyleSheet.java:            synchronized(this) {
+swing/text/html/StyleSheet.java:    private synchronized void linkStyleSheetAt(StyleSheet ss, int index) {
+swing/text/html/StyleSheet.java:    private synchronized void unlinkStyleSheet(StyleSheet ss, int index) {
+swing/text/html/StyleSheet.java:        // NOTE: This is not synchronized, and the caller of this does
+swing/text/html/StyleSheet.java:    private synchronized Style getResolvedStyle(String selector,
+swing/text/html/StyleSheet.java:    private synchronized Style getResolvedStyle(String selector) {
+swing/text/html/StyleSheet.java:    private synchronized void getStyles(SelectorMapping parentMapping,
+swing/text/html/StyleSheet.java:    private synchronized Style createResolvedStyle(String selector,
+swing/text/html/StyleSheet.java:    private synchronized void refreshResolvedRules(String selectorName,
+swing/text/html/StyleSheet.java:        synchronized void insertStyle(Style style, int specificity) {
+swing/text/html/StyleSheet.java:        synchronized void removeStyle(Style style) {
+swing/text/html/StyleSheet.java:        synchronized void insertExtendedStyleAt(Style attr, int index) {
+swing/text/html/StyleSheet.java:        synchronized void addExtendedStyle(Style attr) {
+swing/text/html/StyleSheet.java:        synchronized void removeExtendedStyleAt(int index) {
+swing/text/html/CSS.java:                synchronized(this) {
+util/.svn/text-base/PriorityQueue.java.svn-base: * <p> <strong>Note that this implementation is not synchronized.</strong>
+util/.svn/text-base/Random.java.svn-base:     * synchronized public void setSeed(long seed) {
+util/.svn/text-base/Random.java.svn-base:     * must still be synchronized to ensure correct semantics
+util/.svn/text-base/Random.java.svn-base:    synchronized public void setSeed(long seed) {
+util/.svn/text-base/Random.java.svn-base:     * synchronized protected int next(int bits) {
+util/.svn/text-base/Random.java.svn-base:     * synchronized public double nextGaussian() {
+util/.svn/text-base/Random.java.svn-base:    synchronized public double nextGaussian() {
+util/.svn/text-base/Random.java.svn-base:    synchronized private void writeObject(ObjectOutputStream s) throws IOException {
+util/.svn/text-base/TreeSet.java.svn-base: * <b>Note that this implementation is not synchronized.</b> If multiple
+util/.svn/text-base/TreeSet.java.svn-base: * the set, it <i>must</i> be synchronized externally.  This is typically
+util/.svn/text-base/TreeSet.java.svn-base: * <tt>Collections.synchronizedSet</tt> method.  This is best done at creation
+util/.svn/text-base/TreeSet.java.svn-base: * time, to prevent accidental unsynchronized access to the set: <pre>
+util/.svn/text-base/TreeSet.java.svn-base: *     SortedSet s = Collections.synchronizedSortedSet(new TreeSet(...));
+util/.svn/text-base/TreeSet.java.svn-base: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/.svn/text-base/TreeSet.java.svn-base: * @see	    Collections#synchronizedSortedSet(SortedSet)
+util/.svn/text-base/LinkedList.java.svn-base: * <b>Note that this implementation is not synchronized.</b> If multiple
+util/.svn/text-base/LinkedList.java.svn-base: * modifies the list structurally, it <i>must</i> be synchronized
+util/.svn/text-base/LinkedList.java.svn-base: * Collections.synchronizedList method.  This is best done at creation time,
+util/.svn/text-base/LinkedList.java.svn-base: * to prevent accidental unsynchronized access to the list: <pre>
+util/.svn/text-base/LinkedList.java.svn-base: *     List list = Collections.synchronizedList(new LinkedList(...));
+util/.svn/text-base/LinkedList.java.svn-base: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/.svn/text-base/LinkedList.java.svn-base: * @see	    Collections#synchronizedList(List)
+util/.svn/text-base/IdentityHashMap.java.svn-base: * <p><b>Note that this implementation is not synchronized.</b> If multiple
+util/.svn/text-base/IdentityHashMap.java.svn-base: * modifies the map structurally, it <i>must</i> be synchronized externally.
+util/.svn/text-base/IdentityHashMap.java.svn-base: * "wrapped" using the <tt>Collections.synchronizedMap</tt> method.  This is
+util/.svn/text-base/IdentityHashMap.java.svn-base: * best done at creation time, to prevent accidental unsynchronized access to
+util/.svn/text-base/IdentityHashMap.java.svn-base: *     Map m = Collections.synchronizedMap(new HashMap(...));
+util/.svn/text-base/IdentityHashMap.java.svn-base: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/.svn/text-base/LinkedHashMap.java.svn-base: * <p><strong>Note that this implementation is not synchronized.</strong> If
+util/.svn/text-base/LinkedHashMap.java.svn-base: * synchronized externally.  This is typically accomplished by synchronizing
+util/.svn/text-base/LinkedHashMap.java.svn-base: * <tt>Collections.synchronizedMap</tt>method.  This is best done at creation
+util/.svn/text-base/LinkedHashMap.java.svn-base: * time, to prevent accidental unsynchronized access:
+util/.svn/text-base/LinkedHashMap.java.svn-base: *    Map m = Collections.synchronizedMap(new LinkedHashMap(...));
+util/.svn/text-base/LinkedHashMap.java.svn-base: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/.svn/text-base/ConcurrentModificationException.java.svn-base: * unsynchronized concurrent modification.  Fail-fast operations
+util/.svn/text-base/Vector.java.svn-base: * Unlike the new collection implementations, Vector is synchronized.<p>
+util/.svn/text-base/Vector.java.svn-base: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/.svn/text-base/Vector.java.svn-base:    public synchronized void copyInto(Object[] anArray) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized void trimToSize() {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized void ensureCapacity(int minCapacity) {
+util/.svn/text-base/Vector.java.svn-base:     * This implements the unsynchronized semantics of ensureCapacity.
+util/.svn/text-base/Vector.java.svn-base:    public synchronized void setSize(int newSize) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized int capacity() {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized int size() {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized boolean isEmpty() {
+util/.svn/text-base/Vector.java.svn-base:		synchronized (Vector.this) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized int indexOf(Object elem, int index) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized int lastIndexOf(Object elem) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized int lastIndexOf(Object elem, int index) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized E elementAt(int index) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized E firstElement() {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized E lastElement() {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized void setElementAt(E obj, int index) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized void removeElementAt(int index) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized void insertElementAt(E obj, int index) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized void addElement(E obj) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized boolean removeElement(Object obj) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized void removeAllElements() {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized Object clone() {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized Object[] toArray() {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized <T> T[] toArray(T[] a) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized E get(int index) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized E set(int index, E element) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized boolean add(E o) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized E remove(int index) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized boolean containsAll(Collection<?> c) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized boolean addAll(Collection<? extends E> c) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized boolean removeAll(Collection<?> c) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized boolean retainAll(Collection<?> c)  {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized boolean addAll(int index, Collection<? extends E> c) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized boolean equals(Object o) {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized int hashCode() {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized String toString() {
+util/.svn/text-base/Vector.java.svn-base:    public synchronized List<E> subList(int fromIndex, int toIndex) {
+util/.svn/text-base/Vector.java.svn-base:        return Collections.synchronizedList(super.subList(fromIndex, toIndex),
+util/.svn/text-base/Vector.java.svn-base:    protected synchronized void removeRange(int fromIndex, int toIndex) {
+util/.svn/text-base/Vector.java.svn-base:    private synchronized void writeObject(java.io.ObjectOutputStream s)
+util/.svn/text-base/WeakHashMap.java.svn-base: * <p> Like most collection classes, this class is not synchronized.  A
+util/.svn/text-base/WeakHashMap.java.svn-base: * synchronized <tt>WeakHashMap</tt> may be constructed using the
+util/.svn/text-base/WeakHashMap.java.svn-base: * <tt>Collections.synchronizedMap</tt> method.
+util/.svn/text-base/WeakHashMap.java.svn-base: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/.svn/text-base/EnumSet.java.svn-base: * synchronized.  If multiple threads access an enum set concurrently, and at
+util/.svn/text-base/EnumSet.java.svn-base: * least one of the threads modifies the set, it should be synchronized
+util/.svn/text-base/EnumSet.java.svn-base: * the set should be "wrapped" using the {@link Collections#synchronizedSet}
+util/.svn/text-base/EnumSet.java.svn-base: * unsynchronized access:
+util/.svn/text-base/EnumSet.java.svn-base: * Set&lt;MyEnum&gt; s = Collections.synchronizedSet(EnumSet.noneOf(Foo.class));
+util/.svn/text-base/TreeMap.java.svn-base: * <b>Note that this implementation is not synchronized.</b> If multiple
+util/.svn/text-base/TreeMap.java.svn-base: * the map structurally, it <i>must</i> be synchronized externally.  (A
+util/.svn/text-base/TreeMap.java.svn-base: * <tt>Collections.synchronizedMap</tt> method.  This is best done at creation
+util/.svn/text-base/TreeMap.java.svn-base: * time, to prevent accidental unsynchronized access to the map:
+util/.svn/text-base/TreeMap.java.svn-base: *     Map m = Collections.synchronizedMap(new TreeMap(...));
+util/.svn/text-base/TreeMap.java.svn-base: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/.svn/text-base/TreeMap.java.svn-base: * @see Collections#synchronizedMap(Map)
+util/.svn/text-base/ArrayList.java.svn-base: * <tt>Vector</tt>, except that it is unsynchronized.)<p>
+util/.svn/text-base/ArrayList.java.svn-base: * <strong>Note that this implementation is not synchronized.</strong> If
+util/.svn/text-base/ArrayList.java.svn-base: * synchronized externally.  (A structural modification is any operation that
+util/.svn/text-base/ArrayList.java.svn-base: * list should be "wrapped" using the <tt>Collections.synchronizedList</tt>
+util/.svn/text-base/ArrayList.java.svn-base: * unsynchronized access to the list:
+util/.svn/text-base/ArrayList.java.svn-base: *	List list = Collections.synchronizedList(new ArrayList(...));
+util/.svn/text-base/ArrayList.java.svn-base: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/.svn/text-base/ArrayList.java.svn-base: * @see	    Collections#synchronizedList(List)
+util/.svn/text-base/Hashtable.java.svn-base: * Unlike the new collection implementations, Hashtable is synchronized.<p>
+util/.svn/text-base/Hashtable.java.svn-base: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/.svn/text-base/Hashtable.java.svn-base:    public synchronized int size() {
+util/.svn/text-base/Hashtable.java.svn-base:    public synchronized boolean isEmpty() {
+util/.svn/text-base/Hashtable.java.svn-base:    public synchronized Enumeration<K> keys() {
+util/.svn/text-base/Hashtable.java.svn-base:    public synchronized Enumeration<V> elements() {
+util/.svn/text-base/Hashtable.java.svn-base:    public synchronized boolean contains(Object value) {
+util/.svn/text-base/Hashtable.java.svn-base:    public synchronized boolean containsKey(Object key) {
+util/.svn/text-base/Hashtable.java.svn-base:    public synchronized V get(Object key) {
+util/.svn/text-base/Hashtable.java.svn-base:    public synchronized V put(K key, V value) {
+util/.svn/text-base/Hashtable.java.svn-base:    public synchronized V remove(Object key) {
+util/.svn/text-base/Hashtable.java.svn-base:    public synchronized void putAll(Map<? extends K, ? extends V> t) {
+util/.svn/text-base/Hashtable.java.svn-base:    public synchronized void clear() {
+util/.svn/text-base/Hashtable.java.svn-base:    public synchronized Object clone() {
+util/.svn/text-base/Hashtable.java.svn-base:    public synchronized String toString() {
+util/.svn/text-base/Hashtable.java.svn-base:	    keySet = Collections.synchronizedSet(new KeySet(), this);
+util/.svn/text-base/Hashtable.java.svn-base:	    entrySet = Collections.synchronizedSet(new EntrySet(), this);
+util/.svn/text-base/Hashtable.java.svn-base:	    values = Collections.synchronizedCollection(new ValueCollection(),
+util/.svn/text-base/Hashtable.java.svn-base:    public synchronized boolean equals(Object o) {
+util/.svn/text-base/Hashtable.java.svn-base:    public synchronized int hashCode() {
+util/.svn/text-base/Hashtable.java.svn-base:    private synchronized void writeObject(java.io.ObjectOutputStream s)
+util/.svn/text-base/Hashtable.java.svn-base:	    synchronized(Hashtable.this) {
+util/.svn/text-base/HashSet.java.svn-base: * <b>Note that this implementation is not synchronized.</b> If multiple
+util/.svn/text-base/HashSet.java.svn-base: * the set, it <i>must</i> be synchronized externally.  This is typically
+util/.svn/text-base/HashSet.java.svn-base: * <tt>Collections.synchronizedSet</tt> method.  This is best done at creation
+util/.svn/text-base/HashSet.java.svn-base: * time, to prevent accidental unsynchronized access to the <tt>HashSet</tt>
+util/.svn/text-base/HashSet.java.svn-base: *     Set s = Collections.synchronizedSet(new HashSet(...));
+util/.svn/text-base/HashSet.java.svn-base: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/.svn/text-base/HashSet.java.svn-base: * @see	    Collections#synchronizedSet(Set)
+util/.svn/text-base/Stack.java.svn-base:    public synchronized E pop() {
+util/.svn/text-base/Stack.java.svn-base:    public synchronized E peek() {
+util/.svn/text-base/Stack.java.svn-base:    public synchronized int search(Object o) {
+util/.svn/text-base/LinkedHashSet.java.svn-base: * <p><strong>Note that this implementation is not synchronized.</strong> If
+util/.svn/text-base/LinkedHashSet.java.svn-base: * the threads modifies the set, it <em>must</em> be synchronized externally.
+util/.svn/text-base/LinkedHashSet.java.svn-base: * be "wrapped" using the <tt>Collections.synchronizedSet</tt>method.  This is
+util/.svn/text-base/LinkedHashSet.java.svn-base: * best done at creation time, to prevent accidental unsynchronized access:
+util/.svn/text-base/LinkedHashSet.java.svn-base: *     Set s = Collections.synchronizedSet(new LinkedHashSet(...));
+util/.svn/text-base/LinkedHashSet.java.svn-base: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/.svn/text-base/HashMap.java.svn-base: * unsynchronized and permits nulls.)  This class makes no guarantees as to
+util/.svn/text-base/HashMap.java.svn-base: * <p><b>Note that this implementation is not synchronized.</b> If multiple
+util/.svn/text-base/HashMap.java.svn-base: * modifies the map structurally, it <i>must</i> be synchronized externally.
+util/.svn/text-base/HashMap.java.svn-base: * "wrapped" using the <tt>Collections.synchronizedMap</tt> method.  This is
+util/.svn/text-base/HashMap.java.svn-base: * best done at creation time, to prevent accidental unsynchronized access to
+util/.svn/text-base/HashMap.java.svn-base: * the map: <pre> Map m = Collections.synchronizedMap(new HashMap(...));
+util/.svn/text-base/HashMap.java.svn-base: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/.svn/text-base/Collections.java.svn-base:     * Returns a synchronized (thread-safe) collection backed by the specified
+util/.svn/text-base/Collections.java.svn-base:     *  Collection c = Collections.synchronizedCollection(myCollection);
+util/.svn/text-base/Collections.java.svn-base:     *  synchronized(c) {
+util/.svn/text-base/Collections.java.svn-base:     *      Iterator i = c.iterator(); // Must be in the synchronized block
+util/.svn/text-base/Collections.java.svn-base:     * @param  c the collection to be "wrapped" in a synchronized collection.
+util/.svn/text-base/Collections.java.svn-base:     * @return a synchronized view of the specified collection.
+util/.svn/text-base/Collections.java.svn-base:    public static <T> Collection<T> synchronizedCollection(Collection<T> c) {
+util/.svn/text-base/Collections.java.svn-base:    static <T> Collection<T> synchronizedCollection(Collection<T> c, Object mutex) {
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return c.size();}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return c.isEmpty();}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return c.contains(o);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return c.toArray();}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return c.toArray(a);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return c.add(o);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return c.remove(o);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return c.containsAll(coll);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return c.addAll(coll);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return c.removeAll(coll);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return c.retainAll(coll);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {c.clear();}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return c.toString();}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {s.defaultWriteObject();}
+util/.svn/text-base/Collections.java.svn-base:     * Returns a synchronized (thread-safe) set backed by the specified
+util/.svn/text-base/Collections.java.svn-base:     *  Set s = Collections.synchronizedSet(new HashSet());
+util/.svn/text-base/Collections.java.svn-base:     *  synchronized(s) {
+util/.svn/text-base/Collections.java.svn-base:     *      Iterator i = s.iterator(); // Must be in the synchronized block
+util/.svn/text-base/Collections.java.svn-base:     * @param  s the set to be "wrapped" in a synchronized set.
+util/.svn/text-base/Collections.java.svn-base:     * @return a synchronized view of the specified set.
+util/.svn/text-base/Collections.java.svn-base:    public static <T> Set<T> synchronizedSet(Set<T> s) {
+util/.svn/text-base/Collections.java.svn-base:    static <T> Set<T> synchronizedSet(Set<T> s, Object mutex) {
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return c.equals(o);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return c.hashCode();}
+util/.svn/text-base/Collections.java.svn-base:     * Returns a synchronized (thread-safe) sorted set backed by the specified
+util/.svn/text-base/Collections.java.svn-base:     *  SortedSet s = Collections.synchronizedSortedSet(new HashSortedSet());
+util/.svn/text-base/Collections.java.svn-base:     *  synchronized(s) {
+util/.svn/text-base/Collections.java.svn-base:     *      Iterator i = s.iterator(); // Must be in the synchronized block
+util/.svn/text-base/Collections.java.svn-base:     *  SortedSet s = Collections.synchronizedSortedSet(new HashSortedSet());
+util/.svn/text-base/Collections.java.svn-base:     *  synchronized(s) {  // Note: s, not s2!!!
+util/.svn/text-base/Collections.java.svn-base:     *      Iterator i = s2.iterator(); // Must be in the synchronized block
+util/.svn/text-base/Collections.java.svn-base:     * @param  s the sorted set to be "wrapped" in a synchronized sorted set.
+util/.svn/text-base/Collections.java.svn-base:     * @return a synchronized view of the specified sorted set.
+util/.svn/text-base/Collections.java.svn-base:    public static <T> SortedSet<T> synchronizedSortedSet(SortedSet<T> s) {
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return ss.comparator();}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return ss.first();}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return ss.last();}
+util/.svn/text-base/Collections.java.svn-base:     * Returns a synchronized (thread-safe) list backed by the specified
+util/.svn/text-base/Collections.java.svn-base:     *  List list = Collections.synchronizedList(new ArrayList());
+util/.svn/text-base/Collections.java.svn-base:     *  synchronized(list) {
+util/.svn/text-base/Collections.java.svn-base:     *      Iterator i = list.iterator(); // Must be in synchronized block
+util/.svn/text-base/Collections.java.svn-base:     * @param  list the list to be "wrapped" in a synchronized list.
+util/.svn/text-base/Collections.java.svn-base:     * @return a synchronized view of the specified list.
+util/.svn/text-base/Collections.java.svn-base:    public static <T> List<T> synchronizedList(List<T> list) {
+util/.svn/text-base/Collections.java.svn-base:    static <T> List<T> synchronizedList(List<T> list, Object mutex) {
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return list.equals(o);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return list.hashCode();}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return list.get(index);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return list.set(index, element);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {list.add(index, element);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return list.remove(index);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return list.indexOf(o);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return list.lastIndexOf(o);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return list.addAll(index, c);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {
+util/.svn/text-base/Collections.java.svn-base:     * Returns a synchronized (thread-safe) map backed by the specified
+util/.svn/text-base/Collections.java.svn-base:     *  Map m = Collections.synchronizedMap(new HashMap());
+util/.svn/text-base/Collections.java.svn-base:     *  Set s = m.keySet();  // Needn't be in synchronized block
+util/.svn/text-base/Collections.java.svn-base:     *  synchronized(m) {  // Synchronizing on m, not s!
+util/.svn/text-base/Collections.java.svn-base:     *      Iterator i = s.iterator(); // Must be in synchronized block
+util/.svn/text-base/Collections.java.svn-base:     * @param  m the map to be "wrapped" in a synchronized map.
+util/.svn/text-base/Collections.java.svn-base:     * @return a synchronized view of the specified map.
+util/.svn/text-base/Collections.java.svn-base:    public static <K,V> Map<K,V> synchronizedMap(Map<K,V> m) {
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return m.size();}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return m.isEmpty();}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return m.containsKey(key);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return m.containsValue(value);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return m.get(key);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return m.put(key, value);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return m.remove(key);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {m.putAll(map);}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {m.clear();}
+util/.svn/text-base/Collections.java.svn-base:            synchronized(mutex) {
+util/.svn/text-base/Collections.java.svn-base:            synchronized(mutex) {
+util/.svn/text-base/Collections.java.svn-base:            synchronized(mutex) {
+util/.svn/text-base/Collections.java.svn-base:            synchronized(mutex) {return m.equals(o);}
+util/.svn/text-base/Collections.java.svn-base:            synchronized(mutex) {return m.hashCode();}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return m.toString();}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {s.defaultWriteObject();}
+util/.svn/text-base/Collections.java.svn-base:     * Returns a synchronized (thread-safe) sorted map backed by the specified
+util/.svn/text-base/Collections.java.svn-base:     *  SortedMap m = Collections.synchronizedSortedMap(new HashSortedMap());
+util/.svn/text-base/Collections.java.svn-base:     *  Set s = m.keySet();  // Needn't be in synchronized block
+util/.svn/text-base/Collections.java.svn-base:     *  synchronized(m) {  // Synchronizing on m, not s!
+util/.svn/text-base/Collections.java.svn-base:     *      Iterator i = s.iterator(); // Must be in synchronized block
+util/.svn/text-base/Collections.java.svn-base:     *  SortedMap m = Collections.synchronizedSortedMap(new HashSortedMap());
+util/.svn/text-base/Collections.java.svn-base:     *  Set s2 = m2.keySet();  // Needn't be in synchronized block
+util/.svn/text-base/Collections.java.svn-base:     *  synchronized(m) {  // Synchronizing on m, not m2 or s2!
+util/.svn/text-base/Collections.java.svn-base:     *      Iterator i = s.iterator(); // Must be in synchronized block
+util/.svn/text-base/Collections.java.svn-base:     * @param  m the sorted map to be "wrapped" in a synchronized sorted map.
+util/.svn/text-base/Collections.java.svn-base:     * @return a synchronized view of the specified sorted map.
+util/.svn/text-base/Collections.java.svn-base:    public static <K,V> SortedMap<K,V> synchronizedSortedMap(SortedMap<K,V> m) {
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return sm.comparator();}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return sm.firstKey();}
+util/.svn/text-base/Collections.java.svn-base:	    synchronized(mutex) {return sm.lastKey();}
+util/.svn/text-base/EnumMap.java.svn-base: * synchronized. If multiple threads access an enum map concurrently, and at
+util/.svn/text-base/EnumMap.java.svn-base: * least one of the threads modifies the map, it should be synchronized
+util/.svn/text-base/EnumMap.java.svn-base: * the map should be "wrapped" using the {@link Collections#synchronizedMap}
+util/.svn/text-base/EnumMap.java.svn-base: * unsynchronized access:
+util/.svn/text-base/EnumMap.java.svn-base: *     Map&lt;EnumKey, V&gt; m = Collections.synchronizedMap(new EnumMap(...));
+util/LinkedHashMap.java: * <p><strong>Note that this implementation is not synchronized.</strong> If
+util/LinkedHashMap.java: * synchronized externally.  This is typically accomplished by synchronizing
+util/LinkedHashMap.java: * <tt>Collections.synchronizedMap</tt>method.  This is best done at creation
+util/LinkedHashMap.java: * time, to prevent accidental unsynchronized access:
+util/LinkedHashMap.java: *    Map m = Collections.synchronizedMap(new LinkedHashMap(...));
+util/LinkedHashMap.java: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/Collections.java:     * Returns a synchronized (thread-safe) collection backed by the specified
+util/Collections.java:     *  Collection c = Collections.synchronizedCollection(myCollection);
+util/Collections.java:     *  synchronized(c) {
+util/Collections.java:     *      Iterator i = c.iterator(); // Must be in the synchronized block
+util/Collections.java:     * @param  c the collection to be "wrapped" in a synchronized collection.
+util/Collections.java:     * @return a synchronized view of the specified collection.
+util/Collections.java:    public static <T> Collection<T> synchronizedCollection(Collection<T> c) {
+util/Collections.java:    static <T> Collection<T> synchronizedCollection(Collection<T> c, Object mutex) {
+util/Collections.java:	    synchronized(mutex) {return c.size();}
+util/Collections.java:	    synchronized(mutex) {return c.isEmpty();}
+util/Collections.java:	    synchronized(mutex) {return c.contains(o);}
+util/Collections.java:	    synchronized(mutex) {return c.toArray();}
+util/Collections.java:	    synchronized(mutex) {return c.toArray(a);}
+util/Collections.java:	    synchronized(mutex) {
+util/Collections.java:	    synchronized(mutex) {return c.remove(o);}
+util/Collections.java:	    synchronized(mutex) {return c.containsAll(coll);}
+util/Collections.java:	    synchronized(mutex) {return c.addAll(coll);}
+util/Collections.java:	    synchronized(mutex) {return c.removeAll(coll);}
+util/Collections.java:	    synchronized(mutex) {return c.retainAll(coll);}
+util/Collections.java:	    synchronized(mutex) {c.clear();}
+util/Collections.java:	    synchronized(mutex) {return c.toString();}
+util/Collections.java:	    synchronized(mutex) {s.defaultWriteObject();}
+util/Collections.java:     * Returns a synchronized (thread-safe) set backed by the specified
+util/Collections.java:     *  Set s = Collections.synchronizedSet(new HashSet());
+util/Collections.java:     *  synchronized(s) {
+util/Collections.java:     *      Iterator i = s.iterator(); // Must be in the synchronized block
+util/Collections.java:     * @param  s the set to be "wrapped" in a synchronized set.
+util/Collections.java:     * @return a synchronized view of the specified set.
+util/Collections.java:    public static <T> Set<T> synchronizedSet(Set<T> s) {
+util/Collections.java:    static <T> Set<T> synchronizedSet(Set<T> s, Object mutex) {
+util/Collections.java:	    synchronized(mutex) {return c.equals(o);}
+util/Collections.java:	    synchronized(mutex) {return c.hashCode();}
+util/Collections.java:     * Returns a synchronized (thread-safe) sorted set backed by the specified
+util/Collections.java:     *  SortedSet s = Collections.synchronizedSortedSet(new HashSortedSet());
+util/Collections.java:     *  synchronized(s) {
+util/Collections.java:     *      Iterator i = s.iterator(); // Must be in the synchronized block
+util/Collections.java:     *  SortedSet s = Collections.synchronizedSortedSet(new HashSortedSet());
+util/Collections.java:     *  synchronized(s) {  // Note: s, not s2!!!
+util/Collections.java:     *      Iterator i = s2.iterator(); // Must be in the synchronized block
+util/Collections.java:     * @param  s the sorted set to be "wrapped" in a synchronized sorted set.
+util/Collections.java:     * @return a synchronized view of the specified sorted set.
+util/Collections.java:    public static <T> SortedSet<T> synchronizedSortedSet(SortedSet<T> s) {
+util/Collections.java:	    synchronized(mutex) {return ss.comparator();}
+util/Collections.java:	    synchronized(mutex) {
+util/Collections.java:	    synchronized(mutex) {
+util/Collections.java:	    synchronized(mutex) {
+util/Collections.java:	    synchronized(mutex) {return ss.first();}
+util/Collections.java:	    synchronized(mutex) {return ss.last();}
+util/Collections.java:     * Returns a synchronized (thread-safe) list backed by the specified
+util/Collections.java:     *  List list = Collections.synchronizedList(new ArrayList());
+util/Collections.java:     *  synchronized(list) {
+util/Collections.java:     *      Iterator i = list.iterator(); // Must be in synchronized block
+util/Collections.java:     * @param  list the list to be "wrapped" in a synchronized list.
+util/Collections.java:     * @return a synchronized view of the specified list.
+util/Collections.java:    public static <T> List<T> synchronizedList(List<T> list) {
+util/Collections.java:    static <T> List<T> synchronizedList(List<T> list, Object mutex) {
+util/Collections.java:	    synchronized(mutex) {return list.equals(o);}
+util/Collections.java:	    synchronized(mutex) {return list.hashCode();}
+util/Collections.java:	    synchronized(mutex) {return list.get(index);}
+util/Collections.java:	    synchronized(mutex) {return list.set(index, element);}
+util/Collections.java:	    synchronized(mutex) {list.add(index, element);}
+util/Collections.java:	    synchronized(mutex) {return list.remove(index);}
+util/Collections.java:	    synchronized(mutex) {return list.indexOf(o);}
+util/Collections.java:	    synchronized(mutex) {return list.lastIndexOf(o);}
+util/Collections.java:	    synchronized(mutex) {return list.addAll(index, c);}
+util/Collections.java:	    synchronized(mutex) {
+util/Collections.java:	    synchronized(mutex) {
+util/Collections.java:     * Returns a synchronized (thread-safe) map backed by the specified
+util/Collections.java:     *  Map m = Collections.synchronizedMap(new HashMap());
+util/Collections.java:     *  Set s = m.keySet();  // Needn't be in synchronized block
+util/Collections.java:     *  synchronized(m) {  // Synchronizing on m, not s!
+util/Collections.java:     *      Iterator i = s.iterator(); // Must be in synchronized block
+util/Collections.java:     * @param  m the map to be "wrapped" in a synchronized map.
+util/Collections.java:     * @return a synchronized view of the specified map.
+util/Collections.java:    public static <K,V> Map<K,V> synchronizedMap(Map<K,V> m) {
+util/Collections.java:	    synchronized(mutex) {return m.size();}
+util/Collections.java:	    synchronized(mutex) {return m.isEmpty();}
+util/Collections.java:	    synchronized(mutex) {return m.containsKey(key);}
+util/Collections.java:	    synchronized(mutex) {return m.containsValue(value);}
+util/Collections.java:	    synchronized(mutex) {return m.get(key);}
+util/Collections.java:	    synchronized(mutex) {return m.put(key, value);}
+util/Collections.java:	    synchronized(mutex) {return m.remove(key);}
+util/Collections.java:	    synchronized(mutex) {m.putAll(map);}
+util/Collections.java:	    synchronized(mutex) {m.clear();}
+util/Collections.java:            synchronized(mutex) {
+util/Collections.java:            synchronized(mutex) {
+util/Collections.java:            synchronized(mutex) {
+util/Collections.java:            synchronized(mutex) {return m.equals(o);}
+util/Collections.java:            synchronized(mutex) {return m.hashCode();}
+util/Collections.java:	    synchronized(mutex) {return m.toString();}
+util/Collections.java:	    synchronized(mutex) {s.defaultWriteObject();}
+util/Collections.java:     * Returns a synchronized (thread-safe) sorted map backed by the specified
+util/Collections.java:     *  SortedMap m = Collections.synchronizedSortedMap(new HashSortedMap());
+util/Collections.java:     *  Set s = m.keySet();  // Needn't be in synchronized block
+util/Collections.java:     *  synchronized(m) {  // Synchronizing on m, not s!
+util/Collections.java:     *      Iterator i = s.iterator(); // Must be in synchronized block
+util/Collections.java:     *  SortedMap m = Collections.synchronizedSortedMap(new HashSortedMap());
+util/Collections.java:     *  Set s2 = m2.keySet();  // Needn't be in synchronized block
+util/Collections.java:     *  synchronized(m) {  // Synchronizing on m, not m2 or s2!
+util/Collections.java:     *      Iterator i = s.iterator(); // Must be in synchronized block
+util/Collections.java:     * @param  m the sorted map to be "wrapped" in a synchronized sorted map.
+util/Collections.java:     * @return a synchronized view of the specified sorted map.
+util/Collections.java:    public static <K,V> SortedMap<K,V> synchronizedSortedMap(SortedMap<K,V> m) {
+util/Collections.java:	    synchronized(mutex) {return sm.comparator();}
+util/Collections.java:	    synchronized(mutex) {
+util/Collections.java:	    synchronized(mutex) {
+util/Collections.java:	    synchronized(mutex) {
+util/Collections.java:	    synchronized(mutex) {return sm.firstKey();}
+util/Collections.java:	    synchronized(mutex) {return sm.lastKey();}
+util/Vector.java~: * Unlike the new collection implementations, Vector is synchronized.<p>
+util/Vector.java~: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/Vector.java~:    public synchronized void copyInto(Object[] anArray) {
+util/Vector.java~:    public synchronized void trimToSize() {
+util/Vector.java~:    public synchronized void ensureCapacity(int minCapacity) {
+util/Vector.java~:     * This implements the unsynchronized semantics of ensureCapacity.
+util/Vector.java~:    public synchronized void setSize(int newSize) {
+util/Vector.java~:    public synchronized int capacity() {
+util/Vector.java~:    public synchronized int size() {
+util/Vector.java~:    public synchronized boolean isEmpty() {
+util/Vector.java~:		synchronized (Vector.this) {
+util/Vector.java~:    public synchronized int indexOf(Object elem, int index) {
+util/Vector.java~:    public synchronized int lastIndexOf(Object elem) {
+util/Vector.java~:    public synchronized int lastIndexOf(Object elem, int index) {
+util/Vector.java~:    public synchronized E elementAt(int index) {
+util/Vector.java~:    public synchronized E firstElement() {
+util/Vector.java~:    public synchronized E lastElement() {
+util/Vector.java~:    public synchronized void setElementAt(E obj, int index) {
+util/Vector.java~:    public synchronized void removeElementAt(int index) {
+util/Vector.java~:    public synchronized void insertElementAt(E obj, int index) {
+util/Vector.java~:    public synchronized void addElement(E obj) {
+util/Vector.java~:    public synchronized boolean removeElement(Object obj) {
+util/Vector.java~:    public synchronized void removeAllElements() {
+util/Vector.java~:    public synchronized Object clone() {
+util/Vector.java~:    public synchronized Object[] toArray() {
+util/Vector.java~:    public synchronized <T> T[] toArray(T[] a) {
+util/Vector.java~:    public synchronized E get(int index) {
+util/Vector.java~:    public synchronized E set(int index, E element) {
+util/Vector.java~:    public synchronized boolean add(E o) {
+util/Vector.java~:    public synchronized E remove(int index) {
+util/Vector.java~:    public synchronized boolean containsAll(Collection<?> c) {
+util/Vector.java~:    public synchronized boolean addAll(Collection<? extends E> c) {
+util/Vector.java~:    public synchronized boolean removeAll(Collection<?> c) {
+util/Vector.java~:    public synchronized boolean retainAll(Collection<?> c)  {
+util/Vector.java~:    public synchronized boolean addAll(int index, Collection<? extends E> c) {
+util/Vector.java~:    public synchronized boolean equals(Object o) {
+util/Vector.java~:    public synchronized int hashCode() {
+util/Vector.java~:    public synchronized String toString() {
+util/Vector.java~:    public synchronized List<E> subList(int fromIndex, int toIndex) {
+util/Vector.java~:        return Collections.synchronizedList(super.subList(fromIndex, toIndex),
+util/Vector.java~:    protected synchronized void removeRange(int fromIndex, int toIndex) {
+util/Vector.java~:    private synchronized void writeObject(java.io.ObjectOutputStream s)
+util/ConcurrentModificationException.java: * unsynchronized concurrent modification.  Fail-fast operations
+util/IdentityHashMap.java: * <p><b>Note that this implementation is not synchronized.</b> If multiple
+util/IdentityHashMap.java: * modifies the map structurally, it <i>must</i> be synchronized externally.
+util/IdentityHashMap.java: * "wrapped" using the <tt>Collections.synchronizedMap</tt> method.  This is
+util/IdentityHashMap.java: * best done at creation time, to prevent accidental unsynchronized access to
+util/IdentityHashMap.java: *     Map m = Collections.synchronizedMap(new HashMap(...));
+util/IdentityHashMap.java: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/EnumMap.java: * synchronized. If multiple threads access an enum map concurrently, and at
+util/EnumMap.java: * least one of the threads modifies the map, it should be synchronized
+util/EnumMap.java: * the map should be "wrapped" using the {@link Collections#synchronizedMap}
+util/EnumMap.java: * unsynchronized access:
+util/EnumMap.java: *     Map&lt;EnumKey, V&gt; m = Collections.synchronizedMap(new EnumMap(...));
+util/Hashtable.java: * Unlike the new collection implementations, Hashtable is synchronized.<p>
+util/Hashtable.java: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/Hashtable.java:    public synchronized int size() {
+util/Hashtable.java:    public synchronized boolean isEmpty() {
+util/Hashtable.java:    public synchronized Enumeration<K> keys() {
+util/Hashtable.java:    public synchronized Enumeration<V> elements() {
+util/Hashtable.java:    public synchronized boolean contains(Object value) {
+util/Hashtable.java:    public synchronized boolean containsKey(Object key) {
+util/Hashtable.java:    public synchronized V get(Object key) {
+util/Hashtable.java:    public synchronized V put(K key, V value) {
+util/Hashtable.java:    public synchronized V remove(Object key) {
+util/Hashtable.java:    public synchronized void putAll(Map<? extends K, ? extends V> t) {
+util/Hashtable.java:    public synchronized void clear() {
+util/Hashtable.java:    public synchronized Object clone() {
+util/Hashtable.java:    public synchronized String toString() {
+util/Hashtable.java:	    keySet = Collections.synchronizedSet(new KeySet(), this);
+util/Hashtable.java:	    entrySet = Collections.synchronizedSet(new EntrySet(), this);
+util/Hashtable.java:	    values = Collections.synchronizedCollection(new ValueCollection(),
+util/Hashtable.java:    public synchronized boolean equals(Object o) {
+util/Hashtable.java:    public synchronized int hashCode() {
+util/Hashtable.java:    private synchronized void writeObject(java.io.ObjectOutputStream s)
+util/Hashtable.java:	    synchronized(Hashtable.this) {
+util/TreeSet.java: * <b>Note that this implementation is not synchronized.</b> If multiple
+util/TreeSet.java: * the set, it <i>must</i> be synchronized externally.  This is typically
+util/TreeSet.java: * <tt>Collections.synchronizedSet</tt> method.  This is best done at creation
+util/TreeSet.java: * time, to prevent accidental unsynchronized access to the set: <pre>
+util/TreeSet.java: *     SortedSet s = Collections.synchronizedSortedSet(new TreeSet(...));
+util/TreeSet.java: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/TreeSet.java: * @see	    Collections#synchronizedSortedSet(SortedSet)
+util/LinkedHashSet.java: * <p><strong>Note that this implementation is not synchronized.</strong> If
+util/LinkedHashSet.java: * the threads modifies the set, it <em>must</em> be synchronized externally.
+util/LinkedHashSet.java: * be "wrapped" using the <tt>Collections.synchronizedSet</tt>method.  This is
+util/LinkedHashSet.java: * best done at creation time, to prevent accidental unsynchronized access:
+util/LinkedHashSet.java: *     Set s = Collections.synchronizedSet(new LinkedHashSet(...));
+util/LinkedHashSet.java: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/WeakHashMap.java: * <p> Like most collection classes, this class is not synchronized.  A
+util/WeakHashMap.java: * synchronized <tt>WeakHashMap</tt> may be constructed using the
+util/WeakHashMap.java: * <tt>Collections.synchronizedMap</tt> method.
+util/WeakHashMap.java: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/Vector.java: * Unlike the new collection implementations, Vector is synchronized.<p>
+util/Vector.java: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/Vector.java:    public synchronized void copyInto(Object[] anArray) {
+util/Vector.java:    public synchronized void trimToSize() {
+util/Vector.java:    public synchronized void ensureCapacity(int minCapacity) {
+util/Vector.java:     * This implements the unsynchronized semantics of ensureCapacity.
+util/Vector.java:    public synchronized void setSize(int newSize) {
+util/Vector.java:    public synchronized int capacity() {
+util/Vector.java:    public synchronized int size() {
+util/Vector.java:    public synchronized boolean isEmpty() {
+util/Vector.java:		synchronized (Vector.this) {
+util/Vector.java:    public synchronized int indexOf(Object elem, int index) {
+util/Vector.java:    public synchronized int lastIndexOf(Object elem) {
+util/Vector.java:    public synchronized int lastIndexOf(Object elem, int index) {
+util/Vector.java:    public synchronized E elementAt(int index) {
+util/Vector.java:    public synchronized E firstElement() {
+util/Vector.java:    public synchronized E lastElement() {
+util/Vector.java:    public synchronized void setElementAt(E obj, int index) {
+util/Vector.java:    public synchronized void removeElementAt(int index) {
+util/Vector.java:    public synchronized void insertElementAt(E obj, int index) {
+util/Vector.java:    public synchronized void addElement(E obj) {
+util/Vector.java:    public synchronized boolean removeElement(Object obj) {
+util/Vector.java:    public synchronized void removeAllElements() {
+util/Vector.java:    public synchronized Object clone() {
+util/Vector.java:    public synchronized Object[] toArray() {
+util/Vector.java:    public synchronized <T> T[] toArray(T[] a) {
+util/Vector.java:    public synchronized E get(int index) {
+util/Vector.java:    public synchronized E set(int index, E element) {
+util/Vector.java:    public synchronized boolean add(E o) {
+util/Vector.java:    public synchronized E remove(int index) {
+util/Vector.java:    public synchronized boolean containsAll(Collection<?> c) {
+util/Vector.java:    public synchronized boolean addAll(Collection<? extends E> c) {
+util/Vector.java:    public synchronized boolean removeAll(Collection<?> c) {
+util/Vector.java:    public synchronized boolean retainAll(Collection<?> c)  {
+util/Vector.java:    public synchronized boolean addAll(int index, Collection<? extends E> c) {
+util/Vector.java:    public synchronized boolean equals(Object o) {
+util/Vector.java:    public synchronized int hashCode() {
+util/Vector.java:    public synchronized String toString() {
+util/Vector.java:    public synchronized List<E> subList(int fromIndex, int toIndex) {
+util/Vector.java:        return Collections.synchronizedList(super.subList(fromIndex, toIndex),
+util/Vector.java:    protected synchronized void removeRange(int fromIndex, int toIndex) {
+util/Vector.java:    private synchronized void writeObject(java.io.ObjectOutputStream s)
+util/Stack.java:    public synchronized E pop() {
+util/Stack.java:    public synchronized E peek() {
+util/Stack.java:    public synchronized int search(Object o) {
+util/LinkedList.java: * <b>Note that this implementation is not synchronized.</b> If multiple
+util/LinkedList.java: * modifies the list structurally, it <i>must</i> be synchronized
+util/LinkedList.java: * Collections.synchronizedList method.  This is best done at creation time,
+util/LinkedList.java: * to prevent accidental unsynchronized access to the list: <pre>
+util/LinkedList.java: *     List list = Collections.synchronizedList(new LinkedList(...));
+util/LinkedList.java: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/LinkedList.java: * @see	    Collections#synchronizedList(List)
+util/TreeMap.java: * <b>Note that this implementation is not synchronized.</b> If multiple
+util/TreeMap.java: * the map structurally, it <i>must</i> be synchronized externally.  (A
+util/TreeMap.java: * <tt>Collections.synchronizedMap</tt> method.  This is best done at creation
+util/TreeMap.java: * time, to prevent accidental unsynchronized access to the map:
+util/TreeMap.java: *     Map m = Collections.synchronizedMap(new TreeMap(...));
+util/TreeMap.java: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/TreeMap.java: * @see Collections#synchronizedMap(Map)
+util/HashSet.java: * <b>Note that this implementation is not synchronized.</b> If multiple
+util/HashSet.java: * the set, it <i>must</i> be synchronized externally.  This is typically
+util/HashSet.java: * <tt>Collections.synchronizedSet</tt> method.  This is best done at creation
+util/HashSet.java: * time, to prevent accidental unsynchronized access to the <tt>HashSet</tt>
+util/HashSet.java: *     Set s = Collections.synchronizedSet(new HashSet(...));
+util/HashSet.java: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/HashSet.java: * @see	    Collections#synchronizedSet(Set)
+util/EnumSet.java: * synchronized.  If multiple threads access an enum set concurrently, and at
+util/EnumSet.java: * least one of the threads modifies the set, it should be synchronized
+util/EnumSet.java: * the set should be "wrapped" using the {@link Collections#synchronizedSet}
+util/EnumSet.java: * unsynchronized access:
+util/EnumSet.java: * Set&lt;MyEnum&gt; s = Collections.synchronizedSet(EnumSet.noneOf(Foo.class));
+util/HashMap.java: * unsynchronized and permits nulls.)  This class makes no guarantees as to
+util/HashMap.java: * <p><b>Note that this implementation is not synchronized.</b> If multiple
+util/HashMap.java: * modifies the map structurally, it <i>must</i> be synchronized externally.
+util/HashMap.java: * "wrapped" using the <tt>Collections.synchronizedMap</tt> method.  This is
+util/HashMap.java: * best done at creation time, to prevent accidental unsynchronized access to
+util/HashMap.java: * the map: <pre> Map m = Collections.synchronizedMap(new HashMap(...));
+util/HashMap.java: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/Random.java:     * synchronized public void setSeed(long seed) {
+util/Random.java:     * must still be synchronized to ensure correct semantics
+util/Random.java:    synchronized public void setSeed(long seed) {
+util/Random.java:     * synchronized protected int next(int bits) {
+util/Random.java:     * synchronized public double nextGaussian() {
+util/Random.java:    synchronized public double nextGaussian() {
+util/Random.java:    synchronized private void writeObject(ObjectOutputStream s) throws IOException {
+util/PriorityQueue.java: * <p> <strong>Note that this implementation is not synchronized.</strong>
+util/ArrayList.java: * <tt>Vector</tt>, except that it is unsynchronized.)<p>
+util/ArrayList.java: * <strong>Note that this implementation is not synchronized.</strong> If
+util/ArrayList.java: * synchronized externally.  (A structural modification is any operation that
+util/ArrayList.java: * list should be "wrapped" using the <tt>Collections.synchronizedList</tt>
+util/ArrayList.java: * unsynchronized access to the list:
+util/ArrayList.java: *	List list = Collections.synchronizedList(new ArrayList(...));
+util/ArrayList.java: * presence of unsynchronized concurrent modification.  Fail-fast iterators
+util/ArrayList.java: * @see	    Collections#synchronizedList(List)
+Binary file util/.Hashtable.java.swp matches

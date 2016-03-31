@@ -1,0 +1,20 @@
+
+Main thread: 
+   Library lib = new Library();
+
+Thread1: 
+   lib.foo(); 
+
+Thread2: 
+   lib.foo(); 
+
+Atomicity violation on :
+   lib.field in foo()
+
+       Thread1        		 Thread1
+
+   write(lib.f1.field)
+ 
+			     write(lib.f1.field)
+
+   read(lib.f1.field)

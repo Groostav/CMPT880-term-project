@@ -1,0 +1,23 @@
+JarIndex-Version: 1.0
+
+common-common-2.2.2.Final.jar
+META-INF
+META-INF/maven
+META-INF/maven/org.gatein.common
+META-INF/maven/org.gatein.common/common-common
+org
+org/gatein
+org/gatein/common
+org/gatein/common/concurrent
+org/gatein/common/http
+org/gatein/common/i18n
+org/gatein/common/io
+org/gatein/common/net
+org/gatein/common/net/media
+org/gatein/common/p3p
+org/gatein/common/reflect
+org/gatein/common/servlet
+org/gatein/common/text
+org/gatein/common/util
+org/gatein/common/xml
+

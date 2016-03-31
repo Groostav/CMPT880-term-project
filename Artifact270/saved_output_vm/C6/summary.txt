@@ -1,0 +1,5 @@
+ ANALYSIS SUMMARY: 
+
+ Sequential test synthesis time : 5700 msec
+ Total number of tests : 1
+

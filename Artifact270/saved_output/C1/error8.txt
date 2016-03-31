@@ -1,0 +1,2 @@
+Exception in thread "Thread-2" java.lang.ClassCastException: cern.colt.list.DoubleArrayList cannot be cast to hep.aida.bin.DynamicBin1D
+	at Thread1.run(TestDriver8.java:88)

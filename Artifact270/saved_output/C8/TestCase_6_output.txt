@@ -1,0 +1,149 @@
+Analysis class javato.activetesting.CTrigger-1
+Setting current invocation to add to be collected at line 23
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class BatikCGNTest
+
+Setting current invocation to add to be collected at line 23
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class BatikCGNTest
+
+
+
+1. MEMORY: 811748818976
+P: read at: org/apache/batik/gvt/AbstractGraphicsNode.java#707 by (192)
+C: write at: org/apache/batik/gvt/AbstractGraphicsNode.java#733 by (192)
+R: write at: org/apache/batik/gvt/AbstractGraphicsNode.java#733 by (193)
+
+
+2. MEMORY: 811748818976
+P: read at: org/apache/batik/gvt/AbstractGraphicsNode.java#707 by (193)
+C: read at: org/apache/batik/gvt/AbstractGraphicsNode.java#707 by (193)
+R: write at: org/apache/batik/gvt/AbstractGraphicsNode.java#733 by (192)
+
+
+3. MEMORY: 811748818976
+P: write at: org/apache/batik/gvt/AbstractGraphicsNode.java#733 by (193)
+C: write at: org/apache/batik/gvt/AbstractGraphicsNode.java#733 by (193)
+R: read at: org/apache/batik/gvt/AbstractGraphicsNode.java#707 by (192)
+
+
+4. MEMORY: 807453851676
+P: read at: org/apache/batik/gvt/AbstractGraphicsNode.java#637 by (193)
+C: read at: org/apache/batik/gvt/AbstractGraphicsNode.java#640 by (193)
+R: write at: org/apache/batik/gvt/AbstractGraphicsNode.java#638 by (192)
+
+
+5. MEMORY: 807453851676
+P: read at: org/apache/batik/gvt/AbstractGraphicsNode.java#640 by (193)
+C: read at: org/apache/batik/gvt/AbstractGraphicsNode.java#641 by (193)
+R: write at: org/apache/batik/gvt/AbstractGraphicsNode.java#638 by (192)
+
+
+6. MEMORY: 807453851676
+P: read at: org/apache/batik/gvt/AbstractGraphicsNode.java#641 by (193)
+C: read at: org/apache/batik/gvt/AbstractGraphicsNode.java#642 by (193)
+R: write at: org/apache/batik/gvt/AbstractGraphicsNode.java#638 by (192)
+
+
+7. MEMORY: 807453851672
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#981 by (192)
+C: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#981 by (192)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#817 by (193)
+
+
+8. MEMORY: 807453851672
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#817 by (193)
+C: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#817 by (193)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#981 by (192)
+
+
+9. MEMORY: 807453851662
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#978 by (192)
+C: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#979 by (192)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#824 by (193)
+
+
+10. MEMORY: 807453851662
+P: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#979 by (192)
+C: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#982 by (192)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#824 by (193)
+
+
+11. MEMORY: 807453851662
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#982 by (192)
+C: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#698 by (192)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#824 by (193)
+
+
+12. MEMORY: 807453851662
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#795 by (193)
+C: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#812 by (193)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#979 by (192)
+
+
+13. MEMORY: 807453851662
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#812 by (193)
+C: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (193)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#979 by (192)
+
+
+14. MEMORY: 807453851662
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (193)
+C: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#824 by (193)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#979 by (192)
+
+
+15. MEMORY: 807453851661
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#697 by (192)
+C: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#698 by (192)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (193)
+
+
+16. MEMORY: 807453851661
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#698 by (192)
+C: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#698 by (192)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (193)
+
+
+17. MEMORY: 807453851661
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#964 by (193)
+C: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#818 by (193)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#698 by (192)
+
+
+18. MEMORY: 807453851661
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#818 by (193)
+C: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (193)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#698 by (192)
+
+
+19. MEMORY: 807453851661
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (193)
+C: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (193)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#698 by (192)
+
+
+20. MEMORY: 807453851661
+P: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (193)
+C: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#823 by (193)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#698 by (192)
+
+
+21. MEMORY: 837518622720
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#795 by (193)
+C: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#812 by (193)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#698 by (192)
+
+
+22. MEMORY: 837518622720
+P: read at: org/apache/batik/gvt/CompositeGraphicsNode.java#812 by (193)
+C: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#822 by (193)
+R: write at: org/apache/batik/gvt/CompositeGraphicsNode.java#698 by (192)
+
+
+-------------------------------------------
+
+Total PCR pairs found: 38
+No of unique PCR pairs that cause atomicity violation: 22

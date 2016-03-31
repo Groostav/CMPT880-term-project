@@ -1,0 +1,23 @@
+Analysis class javato.activetesting.CTrigger-1
+Setting current invocation to logTime to be collected at line 21
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class ExoApplTest
+
+Setting current invocation to logTime to be collected at line 21
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class ExoApplTest
+
+
+
+1. MEMORY: 103079215116
+P: read at: org/exoplatform/portal/application/ApplicationStatistic.java#75 by (33)
+C: write at: org/exoplatform/portal/application/ApplicationStatistic.java#75 by (33)
+R: write at: org/exoplatform/portal/application/ApplicationStatistic.java#75 by (34)
+
+
+-------------------------------------------
+
+Total PCR pairs found: 22
+No of unique PCR pairs that cause atomicity violation: 1

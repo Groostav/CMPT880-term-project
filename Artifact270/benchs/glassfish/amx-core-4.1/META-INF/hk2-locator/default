@@ -1,0 +1,12 @@
+#
+# Generated on Thu Aug 21 03:26:53 PDT 2014 by hk2-inhabitant-generator
+#
+
+[org.glassfish.admin.amx.impl.AMXStartupService]S
+contract={org.glassfish.admin.mbeanserver.AMXStartupServiceMBean,org.glassfish.api.amx.AMXLoader}
+
+[org.glassfish.admin.amx.impl.config.AMXConfigStartupService]S
+contract={org.glassfish.api.amx.AMXLoader}
+
+[org.glassfish.admin.amx.impl.util.InjectedValues]S
+

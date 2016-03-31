@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ppalaga
+Build-Jdk: 1.7.0_25
+Specification-Title: GateIn - Common component (common)
+Specification-Version: 2.2.2.Final
+Specification-Vendor: JBoss by Red Hat
+Implementation-Title: GateIn - Common component (common)
+Implementation-Version: 2.2.2.Final
+Implementation-Vendor-Id: org.gatein.common
+Implementation-Vendor: JBoss by Red Hat
+Build-Timestamp: Mon, 17 Mar 2014 20:43:14 +0100
+Implementation-URL: www.gatein.org/common-parent/common-common/
+Java-Vendor: Oracle Corporation
+Java-Version: 1.7.0_25
+Os-Arch: amd64
+Os-Name: Linux
+Os-Version: 3.10.10-200.fc19.x86_64
+Scm-Connection: scm:git:git://github.com/gatein/gatein-common.git/comm
+ on-common
+Scm-Revision: 99095d93c9a8a78351b9cdf99054dd7c7ce4a915
+Scm-Url: https://github.com/gatein/gatein-common/common-common
+

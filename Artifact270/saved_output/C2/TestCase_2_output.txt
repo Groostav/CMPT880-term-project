@@ -1,0 +1,23 @@
+Analysis class javato.activetesting.CTrigger-1
+Setting current invocation to append to be collected at line 24
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class StringBufferTest
+
+Setting current invocation to deleteCharAt to be collected at line 27
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class StringBufferTest
+
+
+
+1. MEMORY: 1159641169929
+P: read at: benchmarks/instrumented/java17/lang/StringBuffer.java#144 by (279)
+C: read at: benchmarks/instrumented/java17/lang/AbstractStringBuilder.java#351 by (279)
+R: write at: benchmarks/instrumented/java17/lang/AbstractStringBuilder.java#763 by (280)
+
+
+-------------------------------------------
+
+Total PCR pairs found: 30
+No of unique PCR pairs that cause atomicity violation: 1

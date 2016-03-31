@@ -1,0 +1,29 @@
+Analysis class javato.activetesting.CTrigger-1
+Setting current invocation to rcvMeta to be collected at line 29
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class CometdTest
+
+Setting current invocation to rcvMeta to be collected at line 29
+
+Exiting Sequential Invocation
+Prinitng error stack for her java.lang.reflect.InvocationTargetException got class CometdTest
+
+
+
+1. MEMORY: 751619276815
+P: read at: org/cometd/client/ext/TimesyncClientExtension.java#50 by (173)
+C: write at: org/cometd/client/ext/TimesyncClientExtension.java#50 by (173)
+R: write at: org/cometd/client/ext/TimesyncClientExtension.java#50 by (174)
+
+
+2. MEMORY: 751619276816
+P: read at: org/cometd/client/ext/TimesyncClientExtension.java#51 by (173)
+C: write at: org/cometd/client/ext/TimesyncClientExtension.java#51 by (173)
+R: write at: org/cometd/client/ext/TimesyncClientExtension.java#51 by (174)
+
+
+-------------------------------------------
+
+Total PCR pairs found: 6
+No of unique PCR pairs that cause atomicity violation: 2
