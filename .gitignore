@@ -12,3 +12,6 @@ hs_err_pid*
 
 # Gradle #
 .gradle/**/taskArtifacts
+
+# Porter intelliJ project #
+porter/.idea/workspace.xml
