@@ -1,0 +1,9 @@
+Ok, so, to generate regressionTest and regressiontest0 I ran this
+
+java -cp ./* randoop.main.Main gentests --testclass=java.util.TreeSet
+
+worth nothing the second text file here, there are a huge list of options
+but one big deal is that they use JUnit assertions
+
+My previous plan was to copy-paste sections out of the tests into a static main method for intruder,
+but perhalps its simpler to use JUnit to drive intruder...
