@@ -3,11 +3,11 @@
 // the template used was in ca/sfu/cs/porter/driver.stg
 // https://theantlrguy.atlassian.net/wiki/display/ST/Five+minute+Introduction
 
-package <sourceClass.getPackage.getName>
+package <sourceClass.Package.Name>
 
 //TODO imports?
 
-class <sourceClass.getSimpleName>Driver {
+class <sourceClass.SimpleName>Driver {
 
     @FunctionalInterface
     interface Test{
@@ -16,7 +16,7 @@ class <sourceClass.getSimpleName>Driver {
 
     public static void main(String[] args){
 
-        <sourceClass.getName> instance = new <sourceClass.getName>();
+        <sourceClass.Name> instance = new <sourceClass.Name>();
 
         runTest(instance::<sourceMethod>);
     }

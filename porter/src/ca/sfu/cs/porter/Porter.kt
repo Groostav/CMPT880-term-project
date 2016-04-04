@@ -46,8 +46,6 @@ class JunitDriverSourceGenerator {
             add("sourceMethod", sourceMethod)
         }
 
-        val result = template.render();
-
         template.write(target.toFile(), ErrorBuffer())
     }
 }
@@ -62,9 +60,9 @@ class CommandLineInterpreter{
     constructor(){
 
         val optionSpecs : Set<Triple<String, String, String>> = hashSetOf(
-                Triple("s", "source-class",     "the source Junit4 test class's canonical class name"),
-                Triple("m", "source-method",    "the name of the test method to wrap"),
-                Triple("t", "target-java-file", "the path to the source file to generate, including file name")
+                Triple("s", "source-class",        "the source Junit4 test class's canonical class name"),
+                Triple("m", "source-method",       "the name of the test method to wrap"),
+                Triple("t", "target-java-src-dir", "the path to the root of the root src directory to contain the generated code")
         );
 
         for((opt, longOpt, description) in optionSpecs){
@@ -117,12 +115,17 @@ class CommandLineInterpreter{
         }
 
         val targetJavaFile = try{
-            val specifiedTargetPath = cmd.getOptionValue("target-java-file")
-            val candidateTargetJavaFile = Paths.get(specifiedTargetPath)
-            if( ! Files.isDirectory(candidateTargetJavaFile.getParent())) { throw InvalidPathException(specifiedTargetPath, "Parent directory does not exist") }
-            if( ! candidateTargetJavaFile.fileName.toString().endsWith(".java")) { throw InvalidPathException(specifiedTargetPath, "Not a *.java file") }
+            val specifiedTargetPath = cmd.getOptionValue("target-java-src-dir")
+            val parsedTargetPath = Paths.get(specifiedTargetPath)
+            if( ! Files.isDirectory(parsedTargetPath)) { throw InvalidPathException(specifiedTargetPath, "Parent directory does not exist") }
 
-            candidateTargetJavaFile
+            val diTraversalForPackage = targetType.name.replace(".", "/") + "Driver.java";
+
+            val candidate = parsedTargetPath.resolve(diTraversalForPackage);
+
+            if ( ! Files.isDirectory(candidate.parent)) { throw InvalidPathException(candidate.toString(), "package structure does not exist") }
+
+            candidate
         }
         catch(exception : InvalidPathException){
             println(exception.message)
