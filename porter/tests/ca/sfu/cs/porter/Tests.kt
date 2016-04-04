@@ -8,19 +8,17 @@ import java.nio.file.Paths
  */
 class Tests{
 
+    val packageName = "ca.sfu.cs.porter"
+    val pathToExpected = Paths.get(Tests::class.java.getResource("RegressionTest0Driver.expected.java").toURI())
+    val pathToInitial = Paths.get(Tests::class.java.getResource("RegressionTest0.java").toURI())
+    val pathToRootOfInitial = pathToInitial.root.resolve(pathToInitial.subpath(0, pathToInitial.nameCount - packageName.split(".").size - 1))
+
     @Test fun when_asking_for_test_001_of_regression_test_against_treeset_should_properly_build_source(){
         //setup
-        val targetBinariesPath = Paths.get(RegressionTest0::class.java.protectionDomain.codeSource.location.toURI())
-        val pathToExpected = Paths.get(Tests::class.java.getResource("RegressionTest0Driver.expected").toURI())
-
         val args = arrayOf(
-                "--source-method",
-                "test001",
-                "--source-class",
-                "ca.sfu.cs.porter.RegressionTest0",
-                "--target-java-src-dir",
-                //TODO this test is odd, its putting java source in a binary directory. Not-obvious.
-                "\"${targetBinariesPath.toAbsolutePath().toString()})\""
+                "--source-method", "test001",
+                "--source-file", "\"${pathToInitial.toAbsolutePath()}\"",
+                "--output-dir", "\"${pathToRootOfInitial.toAbsolutePath()}\""
         )
         val porter = Porter()
 
@@ -28,7 +26,25 @@ class Tests{
         porter.port(args)
 
         //assert
-        val expectedSrc = targetBinariesPath.resolve("ca/sfu/cs/porter/RegressionTest0Driver.java")
-        assertThat(expectedSrc.toFile()).hasSameContentAs(pathToExpected.toFile())
+        val pathOfResult = Paths.get(Tests::class.java.getResource("RegressionTest0Driver.java").toURI())
+        assertThat(pathOfResult .toFile()).hasSameContentAs(pathToExpected.toFile())
+    }
+
+    @Test fun when_asking_for_test_001_of_regression_test_against_treeset_with_specific_package_name_should_properly_build_source(){
+        //setup
+        val args = arrayOf(
+                "--source-method", "test001",
+                "--package-name", "$packageName",
+                "--source-file", "\"${pathToInitial.toAbsolutePath()}\"",
+                "--output-dir", "\"${pathToRootOfInitial.toAbsolutePath()}\""
+        )
+        val porter = Porter()
+
+        //act
+        porter.port(args)
+
+        //assert
+        val pathOfResult = Paths.get(Tests::class.java.getResource("RegressionTest0Driver.java").toURI())
+        assertThat(pathOfResult .toFile()).hasSameContentAs(pathToExpected.toFile())
     }
 }
