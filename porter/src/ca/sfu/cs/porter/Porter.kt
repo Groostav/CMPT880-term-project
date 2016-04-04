@@ -62,7 +62,7 @@ class CommandLineInterpreter{
         val optionSpecs : Set<Triple<String, String, String>> = hashSetOf(
                 Triple("s", "source-class",        "the source Junit4 test class's canonical class name"),
                 Triple("m", "source-method",       "the name of the test method to wrap"),
-                Triple("t", "target-java-src-dir", "the path to the root of the root src directory to contain the generated code")
+                Triple("t", "target-java-src-dir", "the path to the root src directory to contain the generated code")
         );
 
         for((opt, longOpt, description) in optionSpecs){
