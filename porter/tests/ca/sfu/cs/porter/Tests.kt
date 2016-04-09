@@ -47,4 +47,23 @@ class Tests{
         val pathOfResult = Paths.get(Tests::class.java.getResource("RegressionTest0Driver.java").toURI())
         assertThat(pathOfResult .toFile()).hasSameContentAs(pathToExpected.toFile())
     }
+
+    @Test fun when_using_files_without_package_should_correctly_generate_source_without_package(){
+        val pathToExpected = Paths.get(Tests::class.java.getResource("/RegressionTest0NoPackageDriver.expected.java").toURI())
+        val pathToInitial = Paths.get(Tests::class.java.getResource("/RegressionTest0NoPackage.java").toURI())
+
+        val args = arrayOf(
+                "--source-method", "test001",
+                "--source-file", "\"${pathToInitial.toAbsolutePath()}\"",
+                "--output-dir", "\"${pathToExpected.parent.toAbsolutePath()}\""
+        )
+        val porter = Porter()
+
+        //act
+        porter.port(args)
+
+        //assert
+        val pathOfResult = Paths.get(Tests::class.java.getResource("/RegressionTest0NoPackageDriver.java").toURI())
+        assertThat(pathOfResult .toFile()).hasSameContentAs(pathToExpected.toFile())
+    }
 }

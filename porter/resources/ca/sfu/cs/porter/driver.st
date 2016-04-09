@@ -2,7 +2,7 @@
 // the template used was in ca/sfu/cs/porter/driver.stg
 // https://theantlrguy.atlassian.net/wiki/display/ST/Five+minute+Introduction
 
-package <src.packageName>;
+<if(src.packageName)>package <src.packageName>;<endif>
 
 //TODO imports?
 

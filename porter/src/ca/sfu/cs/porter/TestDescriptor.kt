@@ -6,6 +6,6 @@ data class TestDescriptor(
         val testSource : Path,
         val testClass : String,
         val testMethod : String,
-        val packageName : String,
+        val packageName : String?,
         val outputDir : Path
 ){}

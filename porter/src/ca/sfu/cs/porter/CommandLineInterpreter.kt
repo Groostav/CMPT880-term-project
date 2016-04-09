@@ -78,13 +78,13 @@ class CommandLineInterpreter{
 
         var currentPath : Path? = javaSourceFile;
 
-        while(currentPath != null && currentPath.fileName.toString() !in commonPrefixes){
+        while(currentPath != null && currentPath.fileName != null && currentPath.fileName.toString() !in commonPrefixes){
             currentPath = currentPath.parent
         }
 
         val srcRoot = currentPath!!.parent;
 
-        val packageTraversal = srcRoot.relativize(javaSourceFile).parent;
+        val packageTraversal = if(srcRoot != null) srcRoot.relativize(javaSourceFile).parent else Paths.get("").getName(0)
 
         return packageTraversal.toString().replace("/", ".").replace("\\", ".")
     }

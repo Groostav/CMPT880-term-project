@@ -12,11 +12,15 @@ class Porter{
     fun port(args : Array<String>){
 
         //multiple return values, probably my #1 feature for java (considering JEP 286)
-        val testTarget = CommandLineInterpreter().parse(args);
+        val parser = CommandLineInterpreter()
+
+        val testTarget = parser.parse(args);
 
         val generator = JunitDriverSourceGenerator();
 
-        generator.generateSource(testTarget);
+        val resultPath = generator.generateSource(testTarget);
+
+        println("porter finished generating code in $resultPath")
     }
 }
 
