@@ -54,22 +54,25 @@ done
 
 timelimit=10;
 RegressionTest="RegressionTest0";
+export CTRIGGER=OFF
+export INTRUDER_CLASSPATH=./lib/sootall-2.3.0.jar:./lib/concurrent.jar:./lib/randoop.jar:./lib/tools.jar:./lib/collections.jar:./lib/jsr305-1.3.9.jar:./lib/junit-4.11.jar:./lib/amen.jar:./lib/geotools_r.jar:./lib/jts-1.8.jar
+
 #TODO: implement loop to run several tests 
 
 if [ ! "$randoop_output_dir" ]; then
-  randoop_output_dir="./randoop-gen";
+  randoop_output_dir="randoop-gen";
 fi
 
 if [ ! "$porter_output_dir" ]; then
-  porter_output_dir="./porter-gen";
+  porter_output_dir="porter-gen";
 fi
 
 if [ ! "$intruder_input_dir" ]; then
-  intruder_input_dir="./indruder-input";
+  intruder_input_dir="intruder-input";
 fi
 
 if [ ! "$intruder_output_dir" ]; then
-  intruder_output_dir="./indruder-report";
+  intruder_output_dir="intruder-report";
 fi
 
 #TODO: validate the rest of the arguments
@@ -114,15 +117,22 @@ echo "*                      Compiling                         *"
 echo "**********************************************************"
 
 
-javac -cp .:intruder/lib/junit-4.11.jar randoop-gen/"$RegressionTest".java -d $intruder_input_dir
+javac -cp .:intruder/lib/junit-4.11.jar $randoop_output_dir/"$RegressionTest".java $randoop_output_dir/"$RegressionTest"Driver.java -d $intruder_input_dir
 
-javac $randoop_output_dir/"$RegressionTest"Driver.java -d $intruder_input_dir
+
+#javac -cp .:intruder/lib/junit-4.11.jar randoop-gen/"$RegressionTest".java -d $intruder_input_dir
+
+
+#javac -cp .:$intruder_input_dir/"$RegressionTest".class $randoop_output_dir/"$RegressionTest"Driver.java -d $intruder_input_dir
 
 echo "**********************************************************"
 echo "*                      Indruding                         *"
 echo "**********************************************************"
 
+cd intruder
+
 #step 3.0 run intruder
-java -ea -cp $INTRUDER_CLASSPATH:./intruder-ready intruder.wrapper.Main --user-specified-test "$RegressionTest"Driver.java -amen.runwolf "true" -amen.kappa "1" -intruder-output-dir $intruder_output_dir
+java -ea -cp $INTRUDER_CLASSPATH:../intruder-ready intruder.wrapper.Main --user-specified-test ../$randoop_output_dir/"$RegressionTest"Driver.java -amen.runwolf "true" -amen.kappa "1" -intruder-output-dir ../$intruder_output_dir
 
 
+cd ..
