@@ -8,21 +8,12 @@
 
 class <src.testClass>Driver {
 
-    @FunctionalInterface
-    interface Test{
-        void runTest() throws Throwable;
-    }
-
     public static void main(String[] args){
 
         <src.testClass> instance = new <src.testClass>();
 
-        runTest(instance::<src.testMethod>);
-    }
-
-    private static void runTest(Test test){
         try{
-            test.runTest();
+            instance.<src.testMethod>();
         }
         catch (Throwable throwable) {
             throwable.printStackTrace();

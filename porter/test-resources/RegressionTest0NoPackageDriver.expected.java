@@ -7,21 +7,12 @@
 
 class RegressionTest0NoPackageDriver {
 
-    @FunctionalInterface
-    interface Test{
-        void runTest() throws Throwable;
-    }
-
     public static void main(String[] args){
 
         RegressionTest0NoPackage instance = new RegressionTest0NoPackage();
 
-        runTest(instance::test001);
-    }
-
-    private static void runTest(Test test){
         try{
-            test.runTest();
+            instance.test001();
         }
         catch (Throwable throwable) {
             throwable.printStackTrace();

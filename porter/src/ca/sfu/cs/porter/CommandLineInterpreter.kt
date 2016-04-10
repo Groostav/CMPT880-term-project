@@ -32,7 +32,7 @@ class CommandLineInterpreter{
                 OptionSpec('f', "source-file", true, "the path to the source file for the Junit4 test"),
                 OptionSpec('m', "source-method", true, "the name of the test method to wrap"),
                 OptionSpec('p', "package-name", false, "the package name for the corresponding file, can be inferred by convention"),
-                OptionSpec('t', "output-dir", false, "the directory to put the generated code")
+                OptionSpec('o', "output-dir", false, "the directory to put the generated code")
         );
 
         for(optSpec in optionSpecs) optSpec.apply {
@@ -58,7 +58,7 @@ class CommandLineInterpreter{
 
         val packageName = cmd.getOptionValue("package-name") ?: inferPackageName(sourceFile);
 
-        val outputDir = if (cmd.hasOption("output-dir")) makeOutputDir(cmd.getOptionValue("output-dir")) else inferOuputDir(sourceFile, packageName)
+        val outputDir = if (cmd.hasOption("output-dir")) buildOutputDir(cmd.getOptionValue("output-dir")) else inferOuputDir(sourceFile, packageName)
 
         return TestDescriptor(
                 testSource = sourceFile,
@@ -82,14 +82,14 @@ class CommandLineInterpreter{
             currentPath = currentPath.parent
         }
 
-        val srcRoot = currentPath!!.parent;
+        val srcRoot = currentPath?.parent;
 
         val packageTraversal = if(srcRoot != null) srcRoot.relativize(javaSourceFile).parent else Paths.get("").getName(0)
 
         return packageTraversal.toString().replace("/", ".").replace("\\", ".")
     }
 
-    private fun makeOutputDir(outputDir: String): Path {
+    private fun buildOutputDir(outputDir: String): Path {
         return try {
             val candidate = Paths.get(outputDir)
             if ( ! Files.isDirectory(candidate)) {

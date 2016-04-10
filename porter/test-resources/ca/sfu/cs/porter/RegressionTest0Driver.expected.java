@@ -8,21 +8,12 @@ package ca.sfu.cs.porter;
 
 class RegressionTest0Driver {
 
-    @FunctionalInterface
-    interface Test{
-        void runTest() throws Throwable;
-    }
-
     public static void main(String[] args){
 
         RegressionTest0 instance = new RegressionTest0();
 
-        runTest(instance::test001);
-    }
-
-    private static void runTest(Test test){
         try{
-            test.runTest();
+            instance.test001();
         }
         catch (Throwable throwable) {
             throwable.printStackTrace();

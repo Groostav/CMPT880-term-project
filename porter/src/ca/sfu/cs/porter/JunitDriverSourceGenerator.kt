@@ -21,9 +21,7 @@ class JunitDriverSourceGenerator {
         val resolvedTestDescriptor = srcTestDescriptor.run {  copy(packageName = if(packageName!!.isEmpty()) null else packageName) };
         template.add("src", resolvedTestDescriptor )
 
-        val target = srcTestDescriptor.testSource.run {
-            parent.resolve(fileName.toString().replace(".java", "Driver.java"))
-        }
+        val target = srcTestDescriptor.run { outputDir.resolve(testSource.getFileName().toString().replace(".java", "Driver.java")) };
 
         template.write(target.toFile(), ErrorBuffer())
 
