@@ -1,0 +1,32 @@
+
+note, intruder: http://drona.csa.iisc.ernet.in/~muralikrishna/publications/fse15.pdf
+randoop: http://research.microsoft.com/pubs/76578/randoop-tr.pdf
+
+notes from conversation with Vivek:
+"randoop is finding the bugs.. sometimes it is missing"
+"but it is not as good as the properly designed testcases.."
+"thats the conclusion"
+"we might want to add 25% randoop details, around 45% about intruder and 30% our efforts by modifying"
+
+outline: 
+
+[problems with writing concurrent code. Need for automated test generation]
+
+[randoop]
+
+[intruder -- mention that we didn't really run down the quality of the atomicity violations themselves. Ultimately we took their number of 'violations' as final even if they didn't result in a bug.]
+
+[plugging randoop into intruder; what could go wrong!]
+
+[scripting randoop to drive intruder; 'porter']
+
+[import problems, library problems, build problems. Ultimately correcting broken import headers was beyond the scope of this project]
+
+[manually running tests]
+
+[results table]
+
+[code coverage figures?]
+
+[conclusion: randoop's coverage strategy doesn't necessarily map to atomicity discovery. Inherently it finds some, possibly the most common, violations but it does not find all of them.]
+
