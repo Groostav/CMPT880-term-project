@@ -1,7 +1,8 @@
 PAR Project:
 
 ===================================================
-Test		Original		Randoop
+Test		Original		    Randoop
+        (time, tests, violations)
 ===================================================
 1			0				0
 2			1949,1,1		ERROR while running intruder
