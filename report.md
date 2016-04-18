@@ -1,14 +1,7 @@
+# Atomicity detection and regression test generation through Feedback driven random test generation #
 
-note, intruder: http://drona.csa.iisc.ernet.in/~muralikrishna/publications/fse15.pdf
-randoop: http://research.microsoft.com/pubs/76578/randoop-tr.pdf
-
-notes from conversation with Vivek:
-"randoop is finding the bugs.. sometimes it is missing"
-"but it is not as good as the properly designed testcases.."
-"thats the conclusion"
-"we might want to add 25% randoop details, around 45% about intruder and 30% our efforts by modifying"
-
-outline: 
+## Abstract ##
+Writing concurrency tests is enormously difficult: aside from the lack of expressiveness around parallelism and concurrency in popular testing frameworks, finding and laying-out the setup required to push a program into a state where it may violate atomicity rules is difficult. This makes automated generation of such tests very attractive. [punchline: we need to drive intruder with randoop!]
 
 [problems with writing concurrent code. Need for automated test generation]
 
@@ -32,12 +25,3 @@ outline:
 
 [conclusion: randoop's coverage strategy doesn't necessarily map to atomicity discovery. Inherently it finds some, possibly the most common, violations but it does not find all of them.]
 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
